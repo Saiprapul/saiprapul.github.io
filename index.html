@@ -2,274 +2,721 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Saiprapul Reddy Thotapally - Product Owner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Resume website of Saiprapul Reddy Thotapally, Product Owner and Data Analyst.">
+    <title>Saiprapul Thotapally | AI Founder & Technical Product Manager</title>
+    <meta name="description" content="AI Founder building intelligent products. Technical PM with $15M+ impact. Founder of Aero Intelligence, creator of AeroTab.">
+    <meta name="keywords" content="AI Founder, Technical Product Manager, LangGraph, Claude API, Aero Intelligence, AeroTab">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Saiprapul Thotapally | AI Founder & Technical Product Manager">
+    <meta property="og:description" content="Building AI-First Products. Founder of Aero Intelligence.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Lato&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
     <!-- Navigation -->
-    <nav id="navbar">
-        <div class="container">
-            <div class="nav-logo">
-                <a href="#">Saiprapul Reddy Thotapally</a>
-            </div>
+    <nav class="nav" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">Saiprapul<span>.</span></a>
             <ul class="nav-links">
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <a href="#contact" class="btn btn-primary nav-cta">Get in Touch</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul class="mobile-menu-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <!-- Hero Section -->
-    <header id="hero">
+    <section class="hero" id="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
         <div class="container">
-            <h1>Saiprapul Reddy Thotapally</h1>
-            <h2>Product Owner | Product Development & Data Analysis Expert</h2>
-            <p>Driving Innovation & Efficiency through Data-Driven Product Leadership</p>
-            <div class="hero-buttons">
-                <a href="resume.pdf" class="btn">Download Resume</a>
-                <a href="#contact" class="btn">Contact Me</a>
+            <div class="hero-content">
+                <div class="hero-badge">Founder @ Aero Intelligence</div>
+                <h1 class="hero-title">Building <span class="gradient-text">AI-First</span> Products</h1>
+                <p class="hero-subtitle">AI Founder & Technical Product Manager</p>
+                <p class="hero-description">
+                    I build intelligent systems that deliver real business value. From founding an AI startup to leading enterprise AI initiatives, I turn complex AI capabilities into products people love.
+                </p>
+                <div class="hero-metrics">
+                    <div class="hero-metric">
+                        <div class="hero-metric-value">$<span class="highlight">15M</span>+</div>
+                        <div class="hero-metric-label">Business Value Created</div>
+                    </div>
+                    <div class="hero-metric">
+                        <div class="hero-metric-value"><span class="highlight">92.9</span>%</div>
+                        <div class="hero-metric-label">AI Model Accuracy</div>
+                    </div>
+                    <div class="hero-metric">
+                        <div class="hero-metric-value"><span class="highlight">300</span>%+</div>
+                        <div class="hero-metric-label">ROI Achieved</div>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                        View AeroTab
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Get in Touch
+                    </a>
+                </div>
             </div>
         </div>
-    </header>
-
-    <!-- Professional Summary -->
-    <section id="summary">
-        <div class="container">
-            <h2>Professional Summary</h2>
-            <p>
-                With over 8 years of experience in product development, data analysis, and process optimization, I specialize in leveraging data-driven strategies to drive innovation and efficiency. My expertise lies in managing complex platforms, leading Agile teams, and delivering products that align with business goals. I aim to bring this expertise to a Product Owner role, focusing on SaaS solutions and operational excellence.
-            </p>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <!-- About Section -->
+    <section class="about" id="about">
         <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <!-- Product Development -->
-                <div class="skill-card">
-                    <i class="fas fa-box-open"></i>
-                    <h3>Product Development</h3>
-                    <p>End-to-end product lifecycle, roadmap creation, product launch.</p>
+            <div class="about-grid">
+                <div class="about-content reveal">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a technical founder and product leader with a passion for building AI systems that solve real problems. After 8+ years in enterprise tech, I founded Aero Intelligence to revolutionize HVAC maintenance with AI.
+                    </p>
+                    <p>
+                        My journey spans from data analysis to product management to entrepreneurship. Today, I combine deep technical expertise with product intuition to build AI products that deliver measurable business outcomes.
+                    </p>
                 </div>
-                <!-- Agile/Scrum -->
-                <div class="skill-card">
-                    <i class="fas fa-sync-alt"></i>
-                    <h3>Agile/Scrum</h3>
-                    <p>Sprint planning, backlog grooming, team management.</p>
+                <div class="about-highlights">
+                    <div class="glass-card highlight-card reveal reveal-delay-1">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>AI-Native Builder</h4>
+                            <p>Building with LangGraph, Claude API, and multi-agent systems from the ground up.</p>
+                        </div>
+                    </div>
+                    <div class="glass-card highlight-card reveal reveal-delay-2">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="12" y1="20" x2="12" y2="10"></line>
+                                <line x1="18" y1="20" x2="18" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="16"></line>
+                            </svg>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>Impact-Driven</h4>
+                            <p>$15M+ in business value delivered through AI and automation initiatives.</p>
+                        </div>
+                    </div>
+                    <div class="glass-card highlight-card reveal reveal-delay-3">
+                        <div class="highlight-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                        </div>
+                        <div class="highlight-content">
+                            <h4>Published Researcher</h4>
+                            <p>Author of enterprise GenAI governance frameworks published in IRJET.</p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Technical Acumen -->
-                <div class="skill-card">
-                    <i class="fas fa-code"></i>
-                    <h3>Technical Acumen</h3>
-                    <p>SQL, Python, APIs, AWS, Azure, GCP.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics Section -->
+    <section class="impact" id="impact">
+        <div class="container">
+            <div class="impact-grid">
+                <div class="glass-card impact-card reveal">
+                    <div class="impact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <div class="impact-card-value">$<span class="counter" data-target="15">0</span>M+</div>
+                    <div class="impact-card-label">Business Value Created</div>
                 </div>
-                <!-- Data Analytics -->
-                <div class="skill-card">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Data Analytics</h3>
-                    <p>Data-driven decision-making, workflow optimization.</p>
+                <div class="glass-card impact-card reveal reveal-delay-1">
+                    <div class="impact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="impact-card-value"><span class="counter" data-target="50000">0</span>+</div>
+                    <div class="impact-card-label">Users Impacted</div>
                 </div>
-                <!-- Process Optimization -->
-                <div class="skill-card">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Process Optimization</h3>
-                    <p>Business continuity, process automation, cost savings.</p>
+                <div class="glass-card impact-card reveal reveal-delay-2">
+                    <div class="impact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            <polyline points="17 6 23 6 23 12"></polyline>
+                        </svg>
+                    </div>
+                    <div class="impact-card-value"><span class="counter" data-target="300">0</span>%+</div>
+                    <div class="impact-card-label">ROI Achieved</div>
+                </div>
+                <div class="glass-card impact-card reveal reveal-delay-3">
+                    <div class="impact-card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="impact-card-value"><span class="counter" data-target="92.9" data-decimal="true">0</span>%</div>
+                    <div class="impact-card-label">AI Model Accuracy</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Experience Section -->
-    <section id="experience">
+    <section class="experience" id="experience">
         <div class="container">
-            <h2>Experience</h2>
-            <div class="timeline">
-                <!-- Global Payments -->
-                <div class="timeline-item">
-                    <div class="timeline-date">Oct 2021 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Product Owner at Global Payments</h3>
-                        <ul>
-                            <li>Led cloud-based, microservices-driven solutions for the Call Center Framework, improving efficiency by <strong>70%</strong>.</li>
-                            <li>Automated fraud processes, reducing costs by over <strong>$1M annually</strong>.</li>
-                            <li>Utilized Agile methodologies, coordinating sprints and backlog grooming for product feature delivery.</li>
-                            <li>Collaborated with offshore teams using tools like Cypress and Jenkins to improve release efficiency.</li>
-                        </ul>
+            <div class="section-header reveal">
+                <span class="section-badge">Career Journey</span>
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">From enterprise product management to founding an AI company</p>
+            </div>
+
+            <!-- Featured Experience: Aero Intelligence -->
+            <div class="experience-featured reveal">
+                <div class="glass-card featured-card">
+                    <div class="featured-badge">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        Current Focus
+                    </div>
+                    <div class="featured-header">
+                        <div class="featured-title">
+                            <h3>Founder</h3>
+                            <p>Aero Intelligence</p>
+                        </div>
+                        <div class="featured-date">Jan 2024 - Present</div>
+                    </div>
+                    <div class="featured-content">
+                        <div class="featured-description">
+                            <ul>
+                                <li>Built AeroTab, a multi-agent AI system using LangGraph and Claude API for aerospace maintenance documentation</li>
+                                <li>Achieved 92.9% accuracy in automated TAB report generation, validated against Boeing R&D standards</li>
+                                <li>Secured paying customer and partnership discussions with aerospace industry leaders</li>
+                                <li>Designed and implemented complete product from architecture to customer acquisition</li>
+                            </ul>
+                        </div>
+                        <div class="featured-stats">
+                            <div class="featured-stat">
+                                <div class="featured-stat-value">92.9%</div>
+                                <div class="featured-stat-label">Accuracy</div>
+                            </div>
+                            <div class="featured-stat">
+                                <div class="featured-stat-value">1</div>
+                                <div class="featured-stat-label">Paying Customer</div>
+                            </div>
+                            <div class="featured-stat">
+                                <div class="featured-stat-value">Boeing</div>
+                                <div class="featured-stat-label">R&D Validated</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <!-- Blue Cross Blue Shield -->
-                <div class="timeline-item">
+            </div>
+
+            <!-- Experience Timeline -->
+            <div class="experience-timeline">
+                <div class="glass-card timeline-card reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Technical Product Manager, AI Value Labs</h4>
+                        <p class="company">Global Payments</p>
+                        <ul>
+                            <li>Led Genius AI initiative delivering $11M in projected value through enterprise translation platform</li>
+                            <li>Shipped Agentic RAG system generating $2.4M annual cost savings with 90%+ accuracy</li>
+                            <li>Drove AI strategy for payments platform serving 50,000+ merchants globally</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-date">Oct 2022 - Present</div>
+                </div>
+
+                <div class="glass-card timeline-card reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Product Owner</h4>
+                        <p class="company">Global Payments</p>
+                        <ul>
+                            <li>Automated fraud processes achieving $1M+ annual cost savings</li>
+                            <li>Led cloud-based microservices platform improving call center efficiency by 70%</li>
+                            <li>Managed cross-functional Agile teams across multiple time zones</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-date">Oct 2021 - Oct 2022</div>
+                </div>
+
+                <div class="glass-card timeline-card reveal">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h4>Data Analyst</h4>
+                        <p class="company">Blue Cross Blue Shield</p>
+                        <ul>
+                            <li>Automated SQL reporting achieving 90% on-time delivery of critical business reports</li>
+                            <li>Built Python-based analytics pipeline uncovering actionable business insights</li>
+                        </ul>
+                    </div>
                     <div class="timeline-date">Mar 2019 - Oct 2021</div>
-                    <div class="timeline-content">
-                        <h3>Data Analyst at Blue Cross Blue Shield</h3>
-                        <ul>
-                            <li>Automated SQL tasks using shell scripts, achieving <strong>90% on-time delivery</strong> of critical reports.</li>
-                            <li>Used Python for claims data analysis, uncovering trends that informed business strategies.</li>
-                            <li>Integrated data from external sources using APIs.</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Impact Technologies -->
-                <div class="timeline-item">
-                    <div class="timeline-date">Jun 2018 - Feb 2019</div>
-                    <div class="timeline-content">
-                        <h3>Business Analyst at Impact Technologies</h3>
-                        <ul>
-                            <li>Managed database using SQL Server and Oracle.</li>
-                            <li>Performed front-end application modifications to enhance user experience.</li>
-                            <li>Conducted data-driven gap analysis for process improvements.</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Ebiz -->
-                <div class="timeline-item">
-                    <div class="timeline-date">Jan 2016 - May 2016</div>
-                    <div class="timeline-content">
-                        <h3>Marketing Analyst at Ebiz</h3>
-                        <ul>
-                            <li>Engaged with clients to identify business needs and provide solutions.</li>
-                            <li>Assisted in developing marketing strategies to increase brand awareness.</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
+    <section class="projects" id="projects">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="project-cards">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <h3>Call Center Framework Optimization</h3>
-                    <p><strong>Global Payments</strong></p>
-                    <ul>
-                        <li>Improved operational efficiency by <strong>70%</strong> through cloud-based microservices.</li>
-                        <li>Automated fraud detection processes, saving over <strong>$1M annually</strong>.</li>
-                    </ul>
+            <div class="section-header reveal">
+                <span class="section-badge">Featured Work</span>
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">AI products and systems I've built</p>
+            </div>
+
+            <!-- AeroTab Showcase -->
+            <div class="project-showcase reveal">
+                <div class="glass-card showcase-card">
+                    <div class="showcase-content">
+                        <div class="showcase-badge">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                            Flagship Product
+                        </div>
+                        <h3>AeroTab</h3>
+                        <p>AI-powered aerospace maintenance documentation system that automates TAB report generation with Boeing R&D-validated accuracy.</p>
+                        <div class="showcase-features">
+                            <div class="showcase-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Multi-agent orchestration with LangGraph
+                            </div>
+                            <div class="showcase-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Claude API for intelligent document processing
+                            </div>
+                            <div class="showcase-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                92.9% accuracy validated by Boeing R&D
+                            </div>
+                            <div class="showcase-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Production deployment with paying customers
+                            </div>
+                        </div>
+                        <div class="showcase-stats">
+                            <div class="showcase-stat">
+                                <div class="showcase-stat-value">92.9%</div>
+                                <div class="showcase-stat-label">Accuracy</div>
+                            </div>
+                            <div class="showcase-stat">
+                                <div class="showcase-stat-value">10x</div>
+                                <div class="showcase-stat-label">Faster Processing</div>
+                            </div>
+                            <div class="showcase-stat">
+                                <div class="showcase-stat-value">5+</div>
+                                <div class="showcase-stat-label">Agent Types</div>
+                            </div>
+                        </div>
+                        <div class="showcase-buttons">
+                            <a href="https://aerotab.ai" target="_blank" class="btn btn-primary">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Visit AeroTab
+                            </a>
+                        </div>
+                    </div>
+                    <div class="showcase-visual">
+                        <div class="showcase-mockup">
+                            <div class="mockup-header">
+                                <div class="mockup-dot"></div>
+                                <div class="mockup-dot"></div>
+                                <div class="mockup-dot"></div>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="mockup-line"></div>
+                                <div class="mockup-line"></div>
+                                <div class="mockup-line"></div>
+                                <div class="mockup-line"></div>
+                                <div class="mockup-line"></div>
+                            </div>
+                            <div class="mockup-glow"></div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <h3>Data Analysis Project</h3>
-                    <p><strong>Blue Cross Blue Shield</strong></p>
-                    <ul>
-                        <li>Reduced manual efforts through shell script automation and Python-driven insights.</li>
-                        <li>Delivered critical reports on-time, improving operational workflows.</li>
-                    </ul>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="projects-grid">
+                <div class="glass-card project-card reveal">
+                    <div class="project-card-header">
+                        <div class="project-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4>Call Center AI Framework</h4>
+                    <p>Cloud-based microservices platform with AI-powered routing that improved call center efficiency by 70% and reduced operational costs.</p>
+                    <div class="project-card-tags">
+                        <span class="project-tag">AWS</span>
+                        <span class="project-tag">Microservices</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">NLP</span>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card reveal reveal-delay-1">
+                    <div class="project-card-header">
+                        <div class="project-card-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h4>Fraud Detection Automation</h4>
+                    <p>Automated fraud detection and prevention system achieving $1M+ annual savings through intelligent pattern recognition and rule automation.</p>
+                    <div class="project-card-tags">
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">SQL</span>
+                        <span class="project-tag">Automation</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications">
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
         <div class="container">
-            <h2>Certifications</h2>
-            <div class="certifications-grid">
-                <!-- CSPO -->
-                <div class="certification-card">
-                    <img src="images/cspo-logo.png" alt="CSPO Logo">
-                    <h3>Certified Scrum Product Owner</h3>
+            <div class="section-header reveal">
+                <span class="section-badge">Capabilities</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technical and product skills I bring to every project</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="glass-card skill-category reveal">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h4>AI & Machine Learning</h4>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">LangGraph</span>
+                        <span class="skill-tag featured">Claude API</span>
+                        <span class="skill-tag featured">OpenAI</span>
+                        <span class="skill-tag">Multi-Agent Systems</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">LangChain</span>
+                    </div>
                 </div>
-                <!-- SAFe POPM -->
-                <div class="certification-card">
-                    <img src="images/safe-popm-logo.png" alt="SAFe POPM Logo">
-                    <h3>Certified SAFe Product Owner/Product Manager</h3>
+
+                <div class="glass-card skill-category reveal reveal-delay-1">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                            </svg>
+                        </div>
+                        <h4>Cloud & Infrastructure</h4>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Serverless</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
                 </div>
-                <!-- AWS Developer -->
-                <div class="certification-card">
-                    <img src="images/aws-developer-logo.png" alt="AWS Developer Logo">
-                    <h3>AWS Certified Developer</h3>
+
+                <div class="glass-card skill-category reveal reveal-delay-2">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Programming</h4>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">Python</span>
+                        <span class="skill-tag featured">React</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
                 </div>
-                <!-- Azure AI Fundamentals -->
-                <div class="certification-card">
-                    <img src="images/azure-ai-logo.png" alt="Azure AI Logo">
-                    <h3>Microsoft Certified - Azure AI Fundamentals</h3>
+
+                <div class="glass-card skill-category reveal reveal-delay-3">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                        </div>
+                        <h4>Product & Process</h4>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag featured">Product Strategy</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">SAFe</span>
+                        <span class="skill-tag">JIRA</span>
+                        <span class="skill-tag">Roadmapping</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications-row reveal">
+                <div class="cert-badge">
+                    <img src="images/cspo-logo.png" alt="CSPO Certification">
+                    <span>Certified Scrum Product Owner</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="images/safe-popm-logo.png" alt="SAFe POPM Certification">
+                    <span>SAFe Product Owner/PM</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="images/aws-developer-logo.png" alt="AWS Developer Certification">
+                    <span>AWS Certified Developer</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="images/azure-ai-logo.svg" alt="Azure AI Certification">
+                    <span>Azure AI Fundamentals</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education">
+    <!-- Publications Section -->
+    <section class="publications" id="publications">
         <div class="container">
-            <h2>Education</h2>
-            <div class="education-list">
-                <div class="education-item">
-                    <h3>Masters in Technology Management</h3>
-                    <p><strong>University of Bridgeport, 2018</strong></p>
-                    <p>Relevant Projects: Data analysis, product management simulations.</p>
-                </div>
-                <div class="education-item">
-                    <h3>Bachelors in Mechanical Engineering</h3>
-                    <p><strong>JNTU Hyderabad, 2016</strong></p>
-                    <p>Relevant Projects: Automation and process optimization studies.</p>
-                </div>
+            <div class="section-header reveal">
+                <span class="section-badge">Research</span>
+                <h2 class="section-title">Publications</h2>
             </div>
-        </div>
-    </section>
 
-    <!-- Testimonials Section (Optional) -->
-    <!-- Uncomment this section if testimonials are available -->
-    <!--
-    <section id="testimonials">
-        <div class="container">
-            <h2>Testimonials</h2>
-            <div class="testimonials-list">
-                <div class="testimonial-item">
-                    <p>"Saiprapul's leadership in product development has been instrumental in our company's success."</p>
-                    <h4>- Jane Doe, Supervisor at Global Payments</h4>
+            <div class="glass-card publication-card reveal">
+                <div class="publication-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
                 </div>
-                <div class="testimonial-item">
-                    <p>"His ability to analyze complex data sets and provide actionable insights is exceptional."</p>
-                    <h4>- John Smith, Colleague at BCBS</h4>
+                <div class="publication-content">
+                    <h4>Complexity-Criticality Matrix for Enterprise GenAI Governance</h4>
+                    <div class="publication-meta">
+                        <span class="journal">IRJET (International Research Journal of Engineering and Technology)</span>
+                        <span>2024</span>
+                    </div>
+                    <p>A framework for prioritizing GenAI use cases in enterprise environments based on implementation complexity and business criticality dimensions.</p>
                 </div>
             </div>
         </div>
     </section>
-    -->
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="contact" id="contact">
         <div class="container">
-            <h2>Contact Me</h2>
-            <p>Let's discuss how I can add value to your team.</p>
-            <div class="contact-info">
-                <a href="mailto:saiprapul@example.com"><i class="fas fa-envelope"></i> saiprapul@example.com</a>
-                <a href="https://www.linkedin.com/in/saiprapul-reddy-thotapally" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/saiprapul" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2>Let's Build Something</h2>
+                    <p>Whether you're looking to discuss AI products, explore collaboration opportunities, or just want to connect, I'd love to hear from you.</p>
+
+                    <div class="contact-cards">
+                        <a href="mailto:saiprapul@gmail.com" class="glass-card contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <span>Email</span>
+                                <strong>saiprapul@gmail.com</strong>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/saiprapul-reddy-thotapally" target="_blank" class="glass-card contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <span>LinkedIn</span>
+                                <strong>Connect</strong>
+                            </div>
+                        </a>
+                        <a href="https://github.com/saiprapul" target="_blank" class="glass-card contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <span>GitHub</span>
+                                <strong>@saiprapul</strong>
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/saiprapul" target="_blank" class="glass-card contact-card">
+                            <div class="contact-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-card-content">
+                                <span>Twitter</span>
+                                <strong>@saiprapul</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form-wrapper reveal reveal-delay-1">
+                    <h3>Send a Message</h3>
+                    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="_replyto" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a topic</option>
+                                <option value="collaboration">Collaboration Opportunity</option>
+                                <option value="consulting">AI Consulting</option>
+                                <option value="aerotab">AeroTab Inquiry</option>
+                                <option value="job">Job Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <!-- Contact Form -->
-            <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="_replyto" placeholder="Your Email" required>
-                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Saiprapul Reddy Thotapally. All rights reserved.</p>
+            <div class="footer-content">
+                <p class="footer-text">&copy; 2026 Saiprapul Thotapally. Built with passion.</p>
+                <div class="footer-links">
+                    <a href="#hero">Back to Top</a>
+                    <a href="Resume.pdf" target="_blank">Resume</a>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
+    <!-- Scripts -->
     <script src="scripts.js"></script>
 </body>
 </html>
