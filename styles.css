@@ -1253,6 +1253,22 @@ section {
   color: var(--color-neutral-400);
 }
 
+.publication-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.publication-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.publication-link h4 {
+    color: var(--primary-color, #00d4ff);
+}
 /* ============================================
    CONTACT SECTION
    ============================================ */
