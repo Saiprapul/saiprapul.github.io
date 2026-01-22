@@ -574,6 +574,62 @@ section {
 }
 
 /* ============================================
+   HOW I BUILD / PHILOSOPHY SECTION
+   ============================================ */
+.philosophy {
+  background: var(--color-neutral-950);
+  position: relative;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.philosophy-card {
+  padding: 32px;
+}
+
+.philosophy-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.philosophy-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-accent-purple) 100%);
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.philosophy-icon svg {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.philosophy-card-header h4 {
+  color: var(--color-neutral-50);
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin: 0;
+  padding-top: 8px;
+}
+
+.philosophy-card p {
+  color: var(--color-neutral-400);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+/* ============================================
    IMPACT METRICS SECTION
    ============================================ */
 .impact {
@@ -1269,6 +1325,66 @@ section {
 .publication-link h4 {
     color: var(--primary-color, #00d4ff);
 }
+
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.publications-grid .publication-card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.publications-grid .publication-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.publications-grid .publication-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.publications-grid .publication-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.publications-grid .publication-content {
+  flex: 1;
+}
+
+/* Writing Section */
+.writing-section {
+  margin-top: 40px;
+}
+
+.writing-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(168, 85, 247, 0.04) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.15);
+}
+
+.writing-content h3 {
+  color: var(--color-neutral-50);
+  margin-bottom: 12px;
+}
+
+.writing-content p {
+  color: var(--color-neutral-400);
+  margin-bottom: 24px;
+  max-width: 500px;
+}
 /* ============================================
    CONTACT SECTION
    ============================================ */
@@ -1525,6 +1641,10 @@ section {
     gap: 40px;
   }
 
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+  }
+
   .impact-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1550,6 +1670,10 @@ section {
   }
 
   .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publications-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1630,6 +1754,18 @@ section {
 
   .publication-icon {
     margin: 0 auto;
+  }
+
+  .publications-grid .publication-card {
+    text-align: center;
+  }
+
+  .publications-grid .publication-icon {
+    margin: 0 auto 20px;
+  }
+
+  .writing-card {
+    padding: 32px 24px;
   }
 
   .contact-cards {
