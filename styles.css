@@ -76,6 +76,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Accessibility - Skip to Content */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary-500);
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 0 0 8px 0;
+  z-index: 10000;
+  font-weight: 600;
+  transition: top var(--transition-base);
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
 /* Custom Cursor */
 .cursor {
   width: 20px;
@@ -387,6 +406,44 @@ section {
   25% { transform: translate(30px, -30px) scale(1.05); }
   50% { transform: translate(-20px, 20px) scale(0.95); }
   75% { transform: translate(20px, 10px) scale(1.02); }
+}
+
+.hero-content-wrapper {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.hero-image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.hero-headshot {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--glass-border-light);
+  background: var(--glass-bg);
+  box-shadow: var(--shadow-lg), var(--shadow-glow);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  animation: float-gentle 6s ease-in-out infinite;
+}
+
+.hero-headshot:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg), 0 0 80px rgba(99, 102, 241, 0.6);
+}
+
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 .hero-content {
@@ -1579,6 +1636,16 @@ section {
     --section-padding: 80px;
   }
 
+  .hero-content-wrapper {
+    grid-template-columns: 250px 1fr;
+    gap: 40px;
+  }
+
+  .hero-image-container {
+    width: 250px;
+    height: 250px;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1646,6 +1713,22 @@ section {
   .hero {
     min-height: auto;
     padding: 120px 0 80px;
+  }
+
+  .hero-content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-image-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .hero-badge {
+    justify-content: center;
   }
 
   .hero-metrics {
@@ -1735,6 +1818,11 @@ section {
 }
 
 @media (max-width: 480px) {
+  .hero-image-container {
+    width: 160px;
+    height: 160px;
+  }
+
   .glass-card {
     padding: 20px;
   }

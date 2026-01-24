@@ -1,0 +1,32 @@
+# robots.txt for https://saiprapul.github.io
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://saiprapul.github.io/sitemap.xml
+
+# Crawl-delay (optional, helps with server load)
+Crawl-delay: 1
+
+# Allow AI crawlers for GEO/AEO
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
