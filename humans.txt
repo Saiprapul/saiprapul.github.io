@@ -1,0 +1,40 @@
+/* TEAM */
+Developer & Designer: Saiprapul Thotapally
+Contact: saiprapul.thotapally [at] gmail.com
+Twitter: @saiprapulR
+LinkedIn: linkedin.com/in/saiprapul-r-thotapally
+Location: United States
+
+/* SITE */
+Last update: 2026/01/24
+Standards: HTML5, CSS3, Schema.org, Open Graph
+Components: Glassmorphism Design, Multi-Agent Systems Portfolio
+Software: Built with passion for AI that matters
+
+/* THANKS */
+AI Tools: Claude (Anthropic), LangGraph
+Fonts: Inter, Space Grotesk (Google Fonts)
+Icons: Feather Icons
+Hosting: GitHub Pages
+
+/* ABOUT */
+This portfolio showcases AI product leadership work:
+- $15M+ business value delivered
+- $7M+ AI investment secured
+- 350+ use cases evaluated → 14 funded bets
+- Published research on AI governance frameworks
+- Founder of Aero Intelligence (multi-modal AI platform)
+
+Focus: Building AI where it matters—not AI for AI's sake.
+
+Expertise:
+- Enterprise AI Strategy
+- Multi-Agent Systems (LangGraph)
+- AI Portfolio Prioritization
+- AI Governance Frameworks
+- Forward Deployed AI
+- Voice AI & Computer Vision
+
+/* PHILOSOPHY */
+"Most AI fails not from bad technology,
+but from solving the wrong problems."
