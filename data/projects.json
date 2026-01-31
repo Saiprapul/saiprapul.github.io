@@ -1,0 +1,91 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "ProjectPortfolio",
+    "version": "1.1.0",
+    "lastUpdated": "2026-01-30",
+    "projects": [
+        {
+            "id": "aero-intelligence",
+            "name": "Aero Intelligence",
+            "status": "Active / Founder Venture",
+            "role": "Founder & Technical Product Lead",
+            "url": "https://useaero.ai",
+            "summary": "Multi-modal AI platform bringing Vision and Voice to field workers in construction and service industries.",
+            "description": "Architected a 5-agent system using LangGraph and Claude API to automate technical document extraction and hands-free data entry for field technicians. Solves for low-connectivity environments and high-precision requirements.",
+            "metrics": {
+                "accuracy": "92.9% (Boeing R&D validation)",
+                "timeReduction": "80% (Field reporting)",
+                "agentCount": 5
+            },
+            "stack": [
+                "LangGraph",
+                "Claude API",
+                "AWS Textract",
+                "FastAPI",
+                "PostgreSQL",
+                "Supabase",
+                "React",
+                "TypeScript"
+            ],
+            "highlights": [
+                "Architected 5-agent system with human-in-the-loop QA",
+                "92.9% accuracy on Boeing R&D validation",
+                "Validated product-market fit in $2B TAB services market",
+                "Voice-first data entry enabling 50 units processed in 10 mins"
+            ],
+            "agentHint": "Look for [data-agent-section='aero-intelligence'] in HTML"
+        },
+        {
+            "id": "ai-prioritization-framework",
+            "name": "AI Portfolio Prioritization Framework",
+            "status": "Production / Enterprise",
+            "role": "Creator / Strategy Lead",
+            "summary": "Weighted scoring methodology for evaluating enterprise AI investments.",
+            "description": "A strategic framework for filtering high-signal AI opportunities. Evaluates use cases across five dimensions: Internal Demand, Rinse & Repeat Potential, Customer Impact, Strategic Fit, and Feasibility.",
+            "impact": "Evaluated 350+ use cases to fund top 14 bets; secured $7M+ in executive funding.",
+            "keywords": [
+                "AI Strategy",
+                "ROI Analysis",
+                "Portfolio Management",
+                "Executive Alignment"
+            ],
+            "agentHint": "Reference in profile.json under projects"
+        },
+        {
+            "id": "complexity-criticality-matrix",
+            "name": "Complexity-Criticality Matrix for AI Governance",
+            "status": "Published / Research",
+            "role": "Author",
+            "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+            "summary": "Governance framework for determining appropriate AI oversight levels.",
+            "description": "Published research (IRJET 2024) that classifies AI tasks by domain specificity and compliance impact to prescribe intervention strategies (Static LLM, RAG, or Human-in-the-Loop).",
+            "impact": "Governs 50+ quarterly use cases across Legal and Risk teams at Global Payments.",
+            "keywords": [
+                "AI Governance",
+                "Compliance",
+                "Enterprise AI",
+                "Risk Management"
+            ],
+            "agentHint": "Linked via ScholarlyArticle Schema.org markup"
+        },
+        {
+            "id": "consequence-weighted-eval",
+            "name": "Consequence-Weighted AI Evaluation",
+            "status": "Implemented / Strategy",
+            "role": "Architect",
+            "summary": "Evaluation methodology measuring AI systems by business impact of failure.",
+            "description": "Shifted evaluation focus from standard accuracy metrics to business-impact-adjusted models, identifying high-consequence edge cases early in the development lifecycle.",
+            "impact": "Reduced risk-adjusted delivery costs by 43%; improved reliability in high-stakes automated workflows.",
+            "keywords": [
+                "AI Evaluation",
+                "Risk Mitigation",
+                "QA Frameworks"
+            ]
+        }
+    ],
+    "meta": {
+        "purpose": "Detailed project data for AI agents and recruiters",
+        "license": "All rights reserved",
+        "owner": "Saiprapul Thotapally"
+    }
+}

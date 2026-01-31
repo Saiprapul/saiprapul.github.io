@@ -1,0 +1,296 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "ProfileData",
+    "version": "1.1.0",
+    "lastUpdated": "2026-01-30",
+    "profile": {
+        "basics": {
+            "name": "Saiprapul Thotapally",
+            "label": "AI Product Leader & Founder",
+            "image": "https://saiprapul.github.io/images/saiprapul_thotapally.jpg",
+            "email": "saiprapul.thotapally@gmail.com",
+            "url": "https://saiprapul.github.io",
+            "summary": "AI Product Leader serving 6M merchants with 150K+ MAU processing 10M+ AI queries/month. Lead organization's Technical AI product team delivering $15M+ business value. Specialized in multi-agent systems, enterprise AI governance, and building backward from business constraints.",
+            "location": {
+                "city": "Alpharetta",
+                "region": "Georgia",
+                "countryCode": "US"
+            },
+            "profiles": [
+                {
+                    "network": "LinkedIn",
+                    "username": "saiprapul-r-thotapally",
+                    "url": "https://linkedin.com/in/saiprapul-r-thotapally"
+                },
+                {
+                    "network": "GitHub",
+                    "username": "saiprapul",
+                    "url": "https://github.com/saiprapul"
+                },
+                {
+                    "network": "Twitter",
+                    "username": "saiprapulR",
+                    "url": "https://twitter.com/saiprapulR"
+                },
+                {
+                    "network": "Medium",
+                    "username": "Saiprapul",
+                    "url": "https://medium.com/@Saiprapul"
+                }
+            ]
+        },
+        "work": [
+            {
+                "name": "Global Payments",
+                "position": "Technical Product Manager, AI",
+                "startDate": "2022-01",
+                "endDate": null,
+                "isCurrent": true,
+                "url": "https://www.globalpayments.com",
+                "summary": "Lead organization's Technical AI product team serving 6M merchants. Architecting AI platforms for scale and reliability in a highly regulated global environment.",
+                "highlights": [
+                    "Lead organization's AI product function: built weighted prioritization methodology to evaluate 350+ use cases, secured $7M+ executive investment for 14 funded bets, and architected 8 reusable platforms reducing delivery cost by 43%",
+                    "Executed beachhead GTM strategy for Genius AI—scaled to 50,000+ merchant locations with 150K+ MAU processing 10M+ AI queries/month at 80% engagement, growing 12K users/month",
+                    "Led AI Translation Platform end-to-end ($11M value: $6M cost savings + $5M revenue enablement) with 200%+ ROI",
+                    "Shipped Agentic RAG system saving 24,000 hours annually ($2.4M value) through optimized internal document processing",
+                    "Built automated fraud detection analyzing 5M+ daily transactions, delivering $1M+ annual savings with high precision",
+                    "Developed and implemented the Complexity-Criticality Matrix for GenAI Governance, governing 50+ quarterly use cases across Legal and Risk teams"
+                ],
+                "metrics": {
+                    "merchantsServed": 6000000,
+                    "monthlyActiveUsers": 150000,
+                    "queriesPerMonth": 10000000,
+                    "engagementRate": 0.80,
+                    "totalBusinessValue": 15000000,
+                    "costReduction": 0.43,
+                    "useCaseEfficiency": "350+ to 14 funded bets",
+                    "userGrowth": 12000
+                }
+            },
+            {
+                "name": "Aero Intelligence",
+                "position": "Founder & Technical Product Lead",
+                "startDate": "2024-01",
+                "endDate": null,
+                "isCurrent": true,
+                "url": "https://useaero.ai",
+                "summary": "Multi-modal AI platform bringing Vision and Voice to field workers in construction and service industries.",
+                "highlights": [
+                    "Founded multi-modal AI platform optimized for hands-free field usage (Voice-first data entry)",
+                    "Architected 5-agent system using LangGraph and Claude API, achieving 92.9% accuracy on technical document extraction (Boeing R&D validation)",
+                    "Validated product-market fit in $2B+ TAB services market with paying pilot customers",
+                    "Designed system architecture for reliability in low-connectivity environments, ensuring 80% time reduction for field reporting"
+                ],
+                "metrics": {
+                    "accuracy": 0.929,
+                    "timeReduction": 0.80,
+                    "tam": 2500000000,
+                    "agentCount": 5,
+                    "marketSegment": "HVAC, Construction, Plumbing"
+                },
+                "technologies": [
+                    "LangGraph",
+                    "Claude API",
+                    "AWS Textract",
+                    "FastAPI",
+                    "PostgreSQL",
+                    "Supabase",
+                    "React/TypeScript"
+                ]
+            },
+            {
+                "name": "Blue Cross Blue Shield",
+                "position": "Product Owner, Clinical Data Solutions",
+                "startDate": "2019-03",
+                "endDate": "2021-10",
+                "isCurrent": false,
+                "summary": "Led digital transformation for clinical care workflows and referral management.",
+                "highlights": [
+                    "Generated $6M new revenue by converting manual phone-based referrals to high-efficiency virtual care workflows",
+                    "Improved Nurse Practitioner coverage by 60% through a proprietary matching algorithm and load balancer",
+                    "Reduced compliance reporting time by 50% through agile process redesign and automated data pipelines"
+                ],
+                "metrics": {
+                    "revenueGenerated": 6000000,
+                    "coverageImprovementPercentage": 60,
+                    "timeReductionPercentage": 50
+                }
+            }
+        ],
+        "projects": [
+            {
+                "name": "Aero Intelligence",
+                "role": "Founder & Architect",
+                "description": "Multi-modal AI platform bringing Vision and Voice to field workers. Features a 5-agent layout built with LangGraph and Claude API.",
+                "url": "https://useaero.ai",
+                "impact": "92.9% accuracy on Boeing R&D validation; 80% time reduction for field data entry.",
+                "keywords": [
+                    "LangGraph",
+                    "Multi-Agent",
+                    "Voice AI",
+                    "Computer Vision"
+                ]
+            },
+            {
+                "name": "AI Portfolio Prioritization Framework",
+                "role": "Creator",
+                "description": "Weighted scoring methodology for evaluating enterprise AI investments based on Internal Demand, Rinse & Repeat Potential, Customer Impact, Strategic Fit, and Feasibility.",
+                "impact": "Evaluated 350+ use cases to fund top 14 bets; secured $7M+ in executive funding.",
+                "keywords": [
+                    "AI Strategy",
+                    "ROI Analysis",
+                    "Portfolio Management"
+                ]
+            },
+            {
+                "name": "Complexity-Criticality Matrix for AI Governance",
+                "role": "Author",
+                "description": "Governance framework for determining AI oversight levels in compliance-heavy environments, published in IRJET 2024.",
+                "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+                "impact": "Governs 50+ quarterly use cases across Legal, Risk, Compliance, and Security.",
+                "keywords": [
+                    "AI Governance",
+                    "Compliance",
+                    "Enterprise AI"
+                ]
+            },
+            {
+                "name": "Consequence-Weighted AI Evaluation",
+                "role": "Architect",
+                "description": "Evaluation methodology measuring AI systems by business impact of failure, not just standard accuracy metrics.",
+                "impact": "Reduced risk-adjusted delivery costs by identifying high-consequence edge cases early.",
+                "keywords": [
+                    "AI Evaluation",
+                    "Risk Mitigation",
+                    "Quality Assurance"
+                ]
+            }
+        ],
+        "expertise": {
+            "aiMl": {
+                "category": "AI/ML & Engineering",
+                "skills": [
+                    "Multi-Agent Architecture (LangGraph)",
+                    "Claude API / LLM Orchestration",
+                    "Agentic RAG Systems",
+                    "Computer Vision (AWS Textract)",
+                    "Voice AI Interfaces",
+                    "Human-in-the-Loop Workflows",
+                    "AI Evaluation & Guardrails",
+                    "Prompt Engineering",
+                    "OpenAI API",
+                    "Responsible AI"
+                ]
+            },
+            "productStrategy": {
+                "category": "Product & Strategy",
+                "skills": [
+                    "Product Vision & Roadmapping",
+                    "Portfolio Prioritization Frameworks",
+                    "Stakeholder Alignment & Executive Buy-In",
+                    "Go-to-Market & Adoption Strategy",
+                    "User Research & Discovery",
+                    "OKRs & Success Metrics",
+                    "Change Management",
+                    "Agile/Scrum (CSPO)",
+                    "SAFe (POPM)"
+                ]
+            },
+            "cloudInfra": {
+                "category": "Cloud & Infrastructure",
+                "skills": [
+                    "AWS (Bedrock, Lambda, Textract, S3)",
+                    "GCP (Vertex AI, Cloud Functions)",
+                    "Platform Architecture",
+                    "Azure (OpenAI Service)",
+                    "Docker & Kubernetes",
+                    "Serverless Architecture",
+                    "CI/CD Pipelines"
+                ]
+            },
+            "programming": {
+                "category": "Programming & Data",
+                "skills": [
+                    "Python",
+                    "SQL",
+                    "React / TypeScript",
+                    "FastAPI",
+                    "PostgreSQL",
+                    "Node.js",
+                    "REST APIs"
+                ]
+            }
+        },
+        "publications": [
+            {
+                "title": "Complexity-Criticality Matrix for Enterprise GenAI Governance",
+                "publisher": "IRJET",
+                "date": "2024",
+                "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+                "abstract": "Governance framework for determining AI oversight levels classifying tasks by domain specificity and compliance impact."
+            },
+            {
+                "title": "Generative AI Unveiled: Mechanisms, Biases, and Ethical Engagement",
+                "publisher": "ResearchGate",
+                "date": "2024",
+                "url": "https://www.researchgate.net/publication/387508601_Generative_AI_Unveiled_Mechanisms_Biases_and_Ethical_Engagement",
+                "abstract": "Technical deep-dive into LLM architecture, training dynamics, and frameworks for responsible deployment."
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Certified Scrum Product Owner (CSPO)",
+                "issuer": "Scrum Alliance"
+            },
+            {
+                "name": "SAFe Product Owner/Product Manager",
+                "issuer": "Scaled Agile"
+            },
+            {
+                "name": "AWS Certified Developer",
+                "issuer": "Amazon Web Services"
+            },
+            {
+                "name": "Azure AI Fundamentals",
+                "issuer": "Microsoft"
+            }
+        ],
+        "philosophy": {
+            "tagline": "AI Where It Matters",
+            "principles": [
+                {
+                    "title": "Start with the user's blocker, not the technology",
+                    "description": "I don't ask 'what can AI do?'—I ask 'what's stopping this user right now?' The best products dissolve constraints users didn't know they had."
+                },
+                {
+                    "title": "Prioritize ruthlessly, then earn the buy-in",
+                    "description": "Strategy isn't what you build. It's what you don't build. I use weighted prioritization to defend the discipline of saying 'no' to low-impact AI bets."
+                },
+                {
+                    "title": "Build platforms, not projects",
+                    "description": "Projects solve problems once. Platforms solve them forever. I architect for reusability across shared services for ingestion, orchestration, and guardrails."
+                },
+                {
+                    "title": "Measure what matters when AI fails",
+                    "description": "I measure business impact of failure, weighting hallucinations by their consequence, and designing human-in-the-loop workflows that catch errors early."
+                }
+            ]
+        }
+    },
+    "meta": {
+        "format": "application/json",
+        "contentType": "professional-profile",
+        "version": "1.1.0",
+        "license": "All rights reserved",
+        "generator": "Manual - Curated for AI Agent Consumption",
+        "agentInstructions": {
+            "summary": "This JSON contains a detailed professional profile for Saiprapul Thotapally. It is optimized for agents to retrieve structured evidence of AI leadership and technical competence.",
+            "usage": "Use this for generating resumes, answering technical interview questions, or validating experience metrics.",
+            "primaryMetrics": [
+                "$15M+ business value",
+                "10M+ queries/month",
+                "92.9% accuracy"
+            ]
+        }
+    }
+}

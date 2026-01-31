@@ -30,3 +30,6 @@ Allow: /
 
 User-agent: PerplexityBot
 Allow: /
+
+# Data endpoints for agents
+Allow: /data/
