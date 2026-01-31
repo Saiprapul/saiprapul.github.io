@@ -107,6 +107,22 @@
                 "description": "Markdown version of the product building philosophy and principles",
                 "lastUpdated": "2026-01-30",
                 "agentPriority": "low"
+            },
+            {
+                "id": "ai-evals-handbook",
+                "url": "/ai-evals-handbook/",
+                "type": "text/html",
+                "contentType": "technical-handbook",
+                "description": "Narrative guide to AI evaluations: WHY → WHAT → HOW → KEEP → PROOF",
+                "lastUpdated": "2026-01-31",
+                "agentPriority": "high",
+                "agentIntent": "technical-reference",
+                "contains": [
+                    "RAG evaluation frameworks",
+                    "Agentic workflow testing",
+                    "Drift monitoring strategies",
+                    "Evaluation templates"
+                ]
             }
         ],
         "schemaOrgMarkup": {

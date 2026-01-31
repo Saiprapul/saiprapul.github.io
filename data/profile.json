@@ -223,6 +223,13 @@
         },
         "publications": [
             {
+                "title": "AI Evals Handbook",
+                "publisher": "Technical Handbook",
+                "date": "2026",
+                "url": "https://saiprapul.github.io/ai-evals-handbook/",
+                "abstract": "A comprehensive guide to evaluating AI systems over time focusing on Why, What, How, Keep, and Proof. Includes templates for RAG, agents, and drift monitoring."
+            },
+            {
                 "title": "Complexity-Criticality Matrix for Enterprise GenAI Governance",
                 "publisher": "IRJET",
                 "date": "2024",
