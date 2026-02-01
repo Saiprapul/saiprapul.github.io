@@ -77,6 +77,39 @@
   }
 
   // ============================================
+  // DYNAMIC STATUS
+  // ============================================
+  const statusText = document.getElementById('current-status');
+  if (statusText) {
+    const statuses = [
+      'Available for Advisory',
+      'Focus: Multi-Agent Systems',
+      'Currently Shipping Aero AI',
+      'Exploring Agentic RAG',
+      'Strategy · Platforms · Execution'
+    ];
+    let index = 0;
+
+    function rotateStatus() {
+      // Fade out
+      statusText.style.opacity = '0';
+      statusText.style.transition = 'opacity 0.5s ease';
+
+      setTimeout(() => {
+        index = (index + 1) % statuses.length;
+        statusText.textContent = statuses[index];
+        // Fade in
+        statusText.style.opacity = '1';
+      }, 500);
+    }
+
+    // Initial delay so it doesn't rotate immediately
+    setTimeout(() => {
+      setInterval(rotateStatus, 4000);
+    }, 2000);
+  }
+
+  // ============================================
   // CONSOLE EASTER EGG
   // ============================================
   console.log(
