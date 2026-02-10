@@ -1,0 +1,44 @@
+# Saiprapul Thotapally — AI Product Leader
+
+> Personal portfolio of Saiprapul Thotapally, a Technical AI Product Leader and Manager.
+
+## About
+
+Saiprapul Thotapally is an AI Product Leader at Global Payments and the Founder of Aero Intelligence. He specializes in building multi-agent systems, LangGraph orchestration, and enterprise AI strategy at scale. Based in Atlanta, GA.
+
+## Current Roles
+
+- **Technical Product Manager, AI at Global Payments** (2022–Present): Leading AI products for 6M+ merchants, 150K+ MAU, 10M+ queries/month. Built Genius AI platform, AI Translation ($11M value), and Agentic RAG (24K hrs/yr saved). Developed Complexity-Criticality Matrix for responsible AI governance.
+- **Founder of Aero Intelligence** (2024–Present): Multi-agent voice AI for field workers (HVAC, construction, plumbing). 5-agent system using LangGraph and Claude API. 92.9% accuracy on Boeing R&D validation. 80% time reduction for field reporting.
+
+## Key Expertise
+
+- Multi-Agent Systems & LangGraph Orchestration
+- Agentic RAG & LLM Fine-Tuning
+- Enterprise AI Governance & Risk Frameworks
+- Product Strategy, A/B Testing, KPI-driven Optimization
+- User Discovery, GTM Strategy, Agile/Scrum
+
+## Published Work
+
+- [AI Evals Handbook](https://saiprapul.github.io/ai-evals-handbook/): Comprehensive guide to evaluating AI systems
+- [How Transformers Think](https://saiprapul.github.io/transformer-viz/): Interactive walkthrough of transformer architecture
+- [Complexity-Criticality Matrix for Enterprise GenAI Governance](https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf): IRJET 2024
+- [Generative AI Unveiled: Mechanisms, Biases, and Ethical Engagement](https://www.researchgate.net/publication/387508601): ResearchGate 2024
+
+## Links
+
+- Website: https://saiprapul.github.io
+- LinkedIn: https://linkedin.com/in/saiprapul-r-thotapally
+- GitHub: https://github.com/saiprapul
+- Twitter: https://twitter.com/saiprapulR
+- Medium: https://medium.com/@Saiprapul
+- Email: saiprapul.thotapally@gmail.com
+
+## Site Pages
+
+- [Home](https://saiprapul.github.io/): Overview, impact metrics, featured work
+- [Work](https://saiprapul.github.io/work.html): Detailed work history and scale dashboard
+- [Projects](https://saiprapul.github.io/projects.html): AI project portfolio
+- [Writing](https://saiprapul.github.io/writing.html): Research papers and technical writing
+- [About](https://saiprapul.github.io/about.html): Background, certifications, and principles
