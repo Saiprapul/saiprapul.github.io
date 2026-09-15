@@ -1,0 +1,48 @@
+/* TEAM */
+Developer & Designer: Saiprapul Thotapally
+Contact: saiprapul.thotapally [at] gmail.com
+Twitter: @saiprapulR
+LinkedIn: linkedin.com/in/saiprapul-r-thotapally
+Location: United States
+
+/* SITE */
+Last update: 2026/09/12
+Standards: HTML5, CSS3, Schema.org, Open Graph
+Components: Glassmorphism Design, Multi-Agent Systems Portfolio
+Software: Built with passion for AI that matters
+
+/* THANKS */
+AI Tools: Claude (Anthropic), LangGraph
+Fonts: Inter, Space Grotesk (Google Fonts)
+Icons: Feather Icons
+Hosting: GitHub Pages
+
+/* ABOUT */
+This portfolio showcases AI product leadership work:
+- Shipped AI agents to production: concept to release in three months on Genius
+- Genius: the roadmap built from an unstructured feature list, and the funding case
+- Trust as the product: the thresholds that decide when an agent may act
+- Golden sets and a regression gate as the release decision, not a sign-off
+- AI-first voice ordering: roadmap, strategy, segment economics, live customer POC
+- Prototype to platform: what it takes to hold across millions of merchants
+- Pricing from measured product economics; GTM and commercialization
+- Published research on AI governance frameworks
+- Agentic commerce (independent research): identity is solved, reputation is not
+- Aero Intelligence (side project): multi-agent voice AI for field technicians
+
+Focus: Building AI where it matters—not AI for AI's sake.
+
+Expertise:
+- Shipping AI agents to production
+- Trust & Agent Autonomy
+- AI Evaluation: golden sets, regression gates, hallucination control
+- AI Product Strategy, Roadmapping & Funding Cases
+- Voice Ordering & Conversational AI
+- Rapid Prototyping & POCs
+- Pricing, Packaging & Commercialization
+- Multi-Agent Systems (LangGraph), Agentic RAG
+- Agentic Commerce & Agent Reputation (independent research)
+
+/* PHILOSOPHY */
+"Getting an agent to answer is the easy half.
+The product problem is earning the right to act."

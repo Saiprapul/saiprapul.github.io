@@ -1,0 +1,345 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "ProfileData",
+    "version": "1.2.0",
+    "lastUpdated": "2026-09-13",
+    "profile": {
+        "basics": {
+            "name": "Saiprapul Thotapally",
+            "label": "Senior Product Manager, AI",
+            "image": "https://saiprapul.github.io/images/saiprapul_thotapally.jpg",
+            "email": "saiprapul.thotapally@gmail.com",
+            "url": "https://saiprapul.github.io",
+            "summary": "Senior Product Manager, AI at Global Payments who builds agentic platforms people trust, and has shipped them: a multi-agent system taken from concept to production in three months. Getting an agent to answer is the easy half; the product problem is earning enough confidence that a user lets it act. Owns the AI product strategy and roadmap for Genius, the autonomy and evaluation thresholds that decide when an agent may act, and the AI-first voice ordering thesis. Prices from measured product economics with GTM and commercialization. Researches agentic commerce and agent reputation.",
+            "location": {
+                "city": "Alpharetta",
+                "region": "Georgia",
+                "countryCode": "US"
+            },
+            "profiles": [
+                {
+                    "network": "LinkedIn",
+                    "username": "saiprapul-r-thotapally",
+                    "url": "https://linkedin.com/in/saiprapul-r-thotapally"
+                },
+                {
+                    "network": "GitHub",
+                    "username": "saiprapul",
+                    "url": "https://github.com/saiprapul"
+                },
+                {
+                    "network": "Twitter",
+                    "username": "saiprapulR",
+                    "url": "https://twitter.com/saiprapulR"
+                },
+                {
+                    "network": "Medium",
+                    "username": "Saiprapul",
+                    "url": "https://medium.com/@Saiprapul"
+                }
+            ]
+        },
+        "work": [
+            {
+                "name": "Global Payments",
+                "position": "Senior Product Manager, AI (Genius)",
+                "previousPositions": [
+                    {
+                        "position": "Technical Product Owner, AI",
+                        "startDate": "2023-06",
+                        "endDate": "2026-04"
+                    }
+                ],
+                "startDate": "2026-04",
+                "companyStartDate": "2022-01",
+                "endDate": null,
+                "isCurrent": true,
+                "url": "https://www.globalpayments.com",
+                "summary": "Senior PM for AI on Genius at Global Payments, and the product lead who took a multi-agent system from concept to production in three months. Owns the AI product strategy and roadmap, the funding case, the golden sets and evaluation gate that decide what reaches an operator, the voice ordering roadmap, and pricing and commercialization.",
+                "highlights": [
+                    "Took a multi-agent system from concept to production in 3 months by building golden sets per use case and making the regression run the release decision rather than a sign-off",
+                    "In production it resolves 86% of operator questions directly across sales, labor, menu and payments in six languages, with 73% of merchants who try it returning",
+                    "Turned a dumped list of AI feature ideas with no strategy attached into the roadmap the team still builds against, and secured approximately $2M to deliver it by writing the narrative and business case and carrying it through program management, sales and marketing",
+                    "Works closely with the team to take a simple use case from a POC or prototype and scale it across the 5 million merchants Global Payments serves every day",
+                    "Own the AI product strategy and roadmap for Genius: what earns funding, what gets built first, and where the platform boundary sits. Scoped the agent core, evaluation approach and guardrails for reuse across Genius POS rather than per segment, so the direction survives a change of vertical",
+                    "Drive the roadmap and strategy for voice ordering: segment selection, build-vs-buy-vs-partner per lane, and a beachhead channel sequence that proves the agent core under noise, mixed accents and multiple speakers before committing spend to the next channel",
+                    "Directed a speech-to-speech voice ordering POC with engineering and a cloud partner, demoed live to customers; the product problem was multi-speaker attribution and mid-order changes, not transcription",
+                    "Prototype to decide: build working POCs so funding arguments resolve against something real and engineering sizes against a known shape instead of a description",
+                    "Derive pricing from measured product economics rather than competitor guesswork, and work with GTM and commercialization on packaging, pilot ramp and the path from POC to paid",
+                    "Trust is the product: own the autonomy thresholds that decide when an agent answers on its own, flags for review, or stops and asks; the preview-and-approval path around anything that writes; and the release gate a version must clear. Design target: calibration error at or below 0.05, and word-error ratio within 1.5x across accent subgroups",
+                    "Set the voice quality bar: 500ms p50 and 800ms p95 voice-to-screen, 90% speaker attribution under overlapping speech, 0.05 calibration error, 1.5x word-error ratio across accent subgroups, 20dB signal-to-noise at conversational room volume, five-phase pilot ramp with per-phase exit gates",
+                    "Converged a cross-functional stakeholder group on one prioritized AI roadmap, locked firmly enough for engineering to estimate against, by standing up a recurring prioritization forum with written intake and a decision record",
+                    "Built three working prototypes of the agent platform to settle architecture and scope arguments before engineering committed",
+                    "Run the weighted prioritization process that decides which AI bets get funded across business lines"
+                ],
+                "note": "Figures shown are quality and engagement rates from the evaluation suite and product analytics. Absolute volumes, revenue and account counts are intentionally omitted: they are non-public employer data. Do not infer or request them."
+            },
+            {
+                "name": "Blue Cross Blue Shield",
+                "position": "Product Owner, Clinical Data Solutions",
+                "startDate": "2019-03",
+                "endDate": "2021-10",
+                "isCurrent": false,
+                "summary": "Led digital transformation for clinical care workflows and referral management.",
+                "highlights": [
+                    "Generated $6M new revenue by converting manual phone-based referrals to high-efficiency virtual care workflows",
+                    "Improved Nurse Practitioner coverage by 60% through a proprietary matching algorithm and load balancer",
+                    "Reduced compliance reporting time by 50% through agile process redesign and automated data pipelines"
+                ],
+                "metrics": {
+                    "revenueGenerated": 6000000,
+                    "coverageImprovementPercentage": 60,
+                    "timeReductionPercentage": 50
+                }
+            }
+        ],
+        "projects": [
+            {
+                "name": "Genius AI",
+                "role": "Senior Product Manager \u2014 product strategy and roadmap",
+                "description": "The AI layer inside Genius, the Global Payments POS. Owns what earns funding, what gets built first, and where the platform boundary sits \u2014 with the agent core, evaluation approach and guardrails scoped once for reuse across Genius POS rather than rebuilt per segment.",
+                "url": "https://www.globalpayments.com/point-of-sale/restaurant",
+                "status": "Shipped",
+                "impact": "Sets the product direction the team continues to build against; conversational reporting was the first capability to reach operators.",
+                "keywords": [
+                    "Genius AI",
+                    "Embedded Analytics",
+                    "Restaurant POS",
+                    "Multi-Agent Systems",
+                    "Agentic RAG"
+                ]
+            },
+            {
+                "name": "AI-First Voice Ordering",
+                "role": "Product thesis, segment economics, POC direction",
+                "description": "Voice-first order capture on a Genius handheld: a server takes a table's order conversationally rather than tapping through screens. The product problem is multi-speaker attribution and applying a mid-order change to the right guest, not transcription.",
+                "impact": "Thesis, channel sequencing and pricing basis for the voice lane. Set the quality bar it must clear: 500ms p50 voice-to-screen, 90% speaker attribution under overlap, 1.5x fairness ratio across accent subgroups. Speech-to-speech POC directed with engineering and a cloud partner, demoed live to customers.",
+                "keywords": [
+                    "Voice AI",
+                    "Conversational AI",
+                    "Speech-to-Speech",
+                    "Product Thesis",
+                    "Build vs Buy vs Partner",
+                    "Pricing"
+                ]
+            },
+            {
+                "name": "Agentic Commerce & Agent Reputation",
+                "role": "Independent research",
+                "description": "Research into agent-to-agent commerce and what has to be true before an agent is allowed to transact on someone's behalf. Core finding: identity protocols are converging fast while reputation remains unsolved \u2014 current standards verify who an agent is, not whether it honors terms or whether its past counterparties would deal with it again.",
+                "impact": "Reputation, not identity, is the gating layer for agent-initiated commerce, and the first credible reputation layer carries strong network effects. Same trust question as the day job, at network scale rather than one operator's.",
+                "keywords": [
+                    "Agentic Commerce",
+                    "Agent Payments",
+                    "Agent Reputation",
+                    "Trust and Safety",
+                    "Mechanism Design",
+                    "Agent Protocols"
+                ]
+            },
+            {
+                "name": "Aero Intelligence",
+                "role": "Builder",
+                "type": "Side project",
+                "description": "Side project: a multi-agent system bringing vision and voice to field technicians. Five LangGraph agents built on the Claude API automate technical document extraction and hands-free data entry.",
+                "impact": "Vision and voice capture that removes manual transcription from field reporting.",
+                "keywords": [
+                    "LangGraph",
+                    "Multi-Agent",
+                    "Voice AI",
+                    "Computer Vision"
+                ]
+            },
+            {
+                "name": "AI Portfolio Prioritization Framework",
+                "role": "Creator",
+                "description": "Weighted scoring methodology for evaluating enterprise AI investments across Internal Demand, Rinse & Repeat Potential, Customer Impact, Strategic Fit, and Feasibility.",
+                "impact": "Used to decide which enterprise AI bets get funded, and to defend saying no to low-impact ones.",
+                "keywords": [
+                    "AI Strategy",
+                    "ROI Analysis",
+                    "Portfolio Management"
+                ]
+            },
+            {
+                "name": "Complexity-Criticality Matrix for AI Governance",
+                "role": "Author",
+                "description": "Governance framework for determining AI oversight levels in compliance-heavy environments, published in IRJET 2024.",
+                "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+                "impact": "Used with Legal, Risk, Compliance and Security to set oversight levels for GenAI use cases.",
+                "keywords": [
+                    "AI Governance",
+                    "Compliance",
+                    "Enterprise AI"
+                ]
+            },
+            {
+                "name": "Consequence-Weighted AI Evaluation",
+                "role": "Architect",
+                "description": "Evaluation methodology measuring AI systems by business impact of failure, not just standard accuracy metrics.",
+                "impact": "Reduced risk-adjusted delivery costs by identifying high-consequence edge cases early.",
+                "keywords": [
+                    "AI Evaluation",
+                    "Risk Mitigation",
+                    "Quality Assurance"
+                ]
+            }
+        ],
+        "expertise": {
+            "aiMl": {
+                "category": "AI/ML & Engineering",
+                "skills": [
+                    "Multi-Agent Architecture (LangGraph)",
+                    "Claude API / LLM Orchestration",
+                    "Agentic RAG Systems",
+                    "Computer Vision (AWS Textract)",
+                    "Voice AI Interfaces",
+                    "Human-in-the-Loop Workflows",
+                    "AI Evaluation & Guardrails",
+                    "Prompt Engineering",
+                    "OpenAI API",
+                    "Responsible AI"
+                ]
+            },
+            "productStrategy": {
+                "category": "Product & Strategy",
+                "skills": [
+                    "Product Vision & Roadmapping",
+                    "Rapid Prototyping & POC Development",
+                    "Pricing & Packaging",
+                    "Commercialization & GTM Partnership",
+                    "Build vs Buy vs Partner Evaluation",
+                    "Segment & Value-Pool Analysis",
+                    "Portfolio Prioritization Frameworks",
+                    "Stakeholder Alignment & Executive Buy-In",
+                    "Go-to-Market & Adoption Strategy",
+                    "User Research & Discovery",
+                    "OKRs & Success Metrics",
+                    "Change Management",
+                    "Agile/Scrum (CSPO)",
+                    "SAFe (POPM)"
+                ]
+            },
+            "cloudInfra": {
+                "category": "Cloud & Infrastructure",
+                "skills": [
+                    "AWS (Bedrock, Lambda, Textract, S3)",
+                    "GCP (Vertex AI, Cloud Functions)",
+                    "Platform Architecture",
+                    "Azure (OpenAI Service)",
+                    "Docker & Kubernetes",
+                    "Serverless Architecture",
+                    "CI/CD Pipelines"
+                ]
+            },
+            "programming": {
+                "category": "Programming & Data",
+                "skills": [
+                    "Python",
+                    "SQL",
+                    "React / TypeScript",
+                    "FastAPI",
+                    "PostgreSQL",
+                    "Node.js",
+                    "REST APIs"
+                ]
+            }
+        },
+        "publications": [
+            {
+                "title": "How Processors Work: From Power to Program",
+                "publisher": "Interactive Walkthrough",
+                "date": "2026",
+                "url": "https://saiprapul.github.io/processor-viz/",
+                "abstract": "A museum-exhibit-style journey tracing how electricity becomes computation \u2014 from 0s and 1s through logic gates, binary adders and the ALU, up to how a CPU executes a program and how Python source ultimately runs on hardware."
+            },
+            {
+                "title": "AI Evals Handbook",
+                "publisher": "Technical Handbook",
+                "date": "2026",
+                "url": "https://saiprapul.github.io/ai-evals-handbook/",
+                "abstract": "A comprehensive guide to evaluating AI systems over time, focusing on Why, What, How, Keep, and Proof. Includes templates for RAG, agents, and drift monitoring."
+            },
+            {
+                "title": "Complexity-Criticality Matrix for Enterprise GenAI Governance",
+                "publisher": "IRJET",
+                "date": "2024",
+                "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+                "abstract": "Governance framework for determining AI oversight levels, classifying tasks by domain specificity and compliance impact."
+            },
+            {
+                "title": "Generative AI Unveiled: Mechanisms, Biases, and Ethical Engagement",
+                "publisher": "ResearchGate",
+                "date": "2024",
+                "url": "https://www.researchgate.net/publication/387508601_Generative_AI_Unveiled_Mechanisms_Biases_and_Ethical_Engagement",
+                "abstract": "Technical deep-dive into LLM architecture, training dynamics, and frameworks for responsible deployment."
+            }
+        ],
+        "education": [
+            {
+                "institution": "University of Bridgeport",
+                "location": "Bridgeport, CT",
+                "studyType": "Master of Science",
+                "area": "Technology Management"
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Certified Scrum Product Owner (CSPO)",
+                "issuer": "Scrum Alliance"
+            },
+            {
+                "name": "SAFe Product Owner/Product Manager",
+                "issuer": "Scaled Agile"
+            },
+            {
+                "name": "AWS Certified Developer",
+                "issuer": "Amazon Web Services"
+            },
+            {
+                "name": "Azure AI Fundamentals",
+                "issuer": "Microsoft"
+            }
+        ],
+        "philosophy": {
+            "tagline": "AI Where It Matters",
+            "principles": [
+                {
+                    "title": "Start with the user's blocker, not the technology",
+                    "description": "I don't ask 'what can AI do?'—I ask 'what's stopping this user right now?' The best products dissolve constraints users didn't know they had."
+                },
+                {
+                    "title": "Prioritize ruthlessly, then earn the buy-in",
+                    "description": "Strategy isn't what you build. It's what you don't build. I use weighted prioritization to defend the discipline of saying 'no' to low-impact AI bets."
+                },
+                {
+                    "title": "Build platforms, not projects",
+                    "description": "Projects solve problems once. Platforms solve them forever. I architect for reusability across shared services for ingestion, orchestration, and guardrails."
+                },
+                {
+                    "title": "Measure what matters when AI fails",
+                    "description": "I measure business impact of failure, weighting hallucinations by their consequence, and designing human-in-the-loop workflows that catch errors early."
+                }
+            ]
+        }
+    },
+    "meta": {
+        "format": "application/json",
+        "contentType": "professional-profile",
+        "version": "1.2.0",
+        "license": "All rights reserved",
+        "generator": "Manual - Curated for AI Agent Consumption",
+        "agentInstructions": {
+            "summary": "This JSON contains a detailed professional profile for Saiprapul Thotapally. It is optimized for agents to retrieve structured evidence of AI leadership and technical competence.",
+            "usage": "Use this for generating resumes, answering technical interview questions, or validating experience metrics.",
+            "primaryMetrics": [
+                "Shipped a multi-agent system to production in 3 months; built the golden sets and the evals that matter for each use case",
+                "In production: 86% of operator questions resolved directly, 73% merchant return rate",
+                "Secured approximately $2M in funding for the Genius AI roadmap",
+                "Owns AI product strategy and roadmap for Genius at Global Payments",
+                "Owns the AI-first voice ordering product thesis; POC demoed live to customers",
+                "Prices from measured product economics; works GTM and commercialization"
+            ]
+        }
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KBXD52CF');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Saiprapul Thotapally</title>
+    <meta name="description"
+        content="AI & Product Projects by Saiprapul Thotapally. Featuring Genius AI (shipped to production at Global Payments, 86% of operator questions resolved directly), AI-first voice ordering (roadmap, strategy and a POC demoed live to customers), agentic commerce research, the Aero Intelligence side project, and open-source interactive explainers.">
+    <meta name="keywords"
+        content="Genius AI, Voice AI, Conversational AI, Speech-to-Speech, AI Product Strategy, Rapid Prototyping, POC, Pricing and Packaging, AI Projects, LangGraph, Multi-Agent Systems, Agentic RAG, AI Product Portfolio, Saiprapul Thotapally">
+    <meta name="author" content="Saiprapul Thotapally">
+    <link rel="canonical" href="https://saiprapul.github.io/projects.html">
+
+    <!-- Favicon -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23222'/><text x='16' y='22' font-family='system-ui,sans-serif' font-size='16' font-weight='700' fill='%23fff' text-anchor='middle'>ST</text></svg>">
+
+    <!-- Prevent flash of wrong theme -->
+    <script>
+        (function () { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t) })();
+    </script>
+
+    <!-- AEO & GEO Optimization -->
+    <meta name="ai-content-declaration"
+        content="Portfolio of AI product work by Saiprapul Thotapally. Includes Genius AI product strategy, the AI-first voice ordering thesis and POC, Aero Intelligence (side project), and open-source interactive explainers.">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBXD52CF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="container">
+        <nav class="page-nav">
+            <a href="index.html">&larr; Home</a>
+            <button class="theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+        </nav>
+
+        <main>
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span id="current-status">Shipped AI agents to production</span>
+            </div>
+            <h1>Projects</h1>
+
+            <a href="https://www.globalpayments.com/point-of-sale/restaurant" target="_blank" class="project">
+                <div class="project-icon">
+                    <img src="images/gp.png" alt="Global Payments"
+                        style="width:44px;height:44px;object-fit:contain;border-radius:6px;">
+                </div>
+                <div class="project-content">
+                    <h2>Genius AI (Global Payments)</h2>
+                    <p class="meta project-label">Shipped to production &middot; strategy, roadmap &amp; release</p>
+                    <p>The AI layer inside Genius, the Global Payments POS&mdash;concept to production in three months,
+                        and now resolving <strong>86%</strong> of operator questions directly. I own what gets funded,
+                        what gets built first, and where the platform boundary sits&mdash;scoping the agent core,
+                        evaluation and guardrails once for reuse rather than rebuilding per segment. The harder problem
+                        is trust: an operator will read an answer, but only lets the system <em>act</em> if the
+                        confidence it reports is worth believing.</p>
+                    <p class="meta">Decisions: capability sequencing &middot; platform boundary &middot; autonomy
+                        thresholds &middot; funding cases</p>
+                    <p class="meta">Bar: golden sets per use case &middot; the metrics that matter for each &middot;
+                        zero hallucination tolerance on anything financial &middot; regression gate as the release decision</p>
+                </div>
+            </a>
+
+            <a href="https://www.globalpayments.com/point-of-sale/restaurant" target="_blank" class="project">
+                <div class="project-icon">
+                    <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-label="AI-first voice ordering">
+                        <rect width="44" height="44" rx="8" fill="#7c3aed" />
+                        <rect x="12" y="18" width="3" height="8" rx="1.5" fill="#fff" opacity="0.7" />
+                        <rect x="18" y="13" width="3" height="18" rx="1.5" fill="#fff" opacity="0.95" />
+                        <rect x="24" y="16" width="3" height="12" rx="1.5" fill="#fff" opacity="0.85" />
+                        <rect x="30" y="20" width="3" height="4" rx="1.5" fill="#fff" opacity="0.6" />
+                    </svg>
+                </div>
+                <div class="project-content">
+                    <h2>AI-First Voice Ordering (Global Payments)</h2>
+                    <p class="meta project-label">Roadmap &amp; strategy &middot; POC</p>
+                    <p>Voice-first order capture on a Genius handheld&mdash;a server takes a table's order
+                        conversationally instead of tapping through screens. I own the thesis: where voice wins versus
+                        where the category is commoditizing, build-vs-buy-vs-partner per lane, and a beachhead sequence
+                        that proves the agent core before spend commits to the next channel. The hard part isn't
+                        transcription&mdash;it's attributing who said what, and applying a mid-order change to the
+                        right person's order.</p>
+                    <p class="meta">Decisions: segment selection &middot; channel sequencing &middot;
+                        build-vs-buy-vs-partner &middot; pricing &middot; dialog confidence policy</p>
+                    <p class="meta">Bar: &le;500ms p50 / &le;800ms p95 voice-to-screen &middot; &ge;90% speaker
+                        attribution under overlap &middot; &le;1.5&times; word-error ratio across accent subgroups
+                        &middot; five-phase ramp</p>
+                    <p class="meta">Three working prototypes to settle architecture before engineering committed;
+                        speech-to-speech POC demoed live to customers</p>
+                </div>
+            </a>
+
+            <div class="project">
+                <div class="project-icon">
+                    <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-label="Agentic commerce research">
+                        <rect width="44" height="44" rx="8" fill="#0891b2" />
+                        <circle cx="22" cy="13" r="3.5" fill="#fff" opacity="0.95" />
+                        <circle cx="13" cy="30" r="3.5" fill="#fff" opacity="0.75" />
+                        <circle cx="31" cy="30" r="3.5" fill="#fff" opacity="0.75" />
+                        <path d="M22 16.5v5m0 0l-7.5 5m7.5-5l7.5 5" stroke="#fff" stroke-width="1.8" opacity="0.55"
+                            fill="none" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="project-content">
+                    <h2>Agentic Commerce &amp; Agent Reputation</h2>
+                    <p class="meta project-label">Independent research</p>
+                    <p>Agents are starting to transact for people, and the infrastructure has converged on one half
+                        of the problem. The protocols answer <em>who is this agent</em>; almost nothing answers <em>is
+                            this agent any good</em>&mdash;whether it honors terms, whether its last counterparty would
+                        deal with it again. Reputation, not identity, is what gates letting an agent spend someone's
+                        money, and it's the layer with real network effects once someone builds it credibly.</p>
+                    <p>Same question as the day job, one altitude up: a POS assistant earns the right to act for one
+                        operator; a commerce agent has to earn it across a network.</p>
+                    <p class="meta">Context: third-party analysts put agent-orchestrated US retail near $1T by 2030,
+                        roughly a fifth of commerce happening agent-to-agent&mdash;against about 1% of shoppers buying through
+                        agents today</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-icon">
+                    <img src="images/aero_logo_dark.svg" alt="Aero Intelligence" style="width:44px;height:44px;">
+                </div>
+                <div class="project-content">
+                    <h2>Aero Intelligence</h2>
+                    <p class="meta project-label">Side project</p>
+                    <p>A multi-agent system that brings voice and vision to field technicians. Five LangGraph agents
+                        automate technical document extraction and hands-free data entry, designed to stay reliable in
+                        low-connectivity environments where precision matters.</p>
+                    <p class="meta">Stack: LangGraph, Claude API, AWS Textract, FastAPI, PostgreSQL, Supabase,
+                        React/TypeScript</p>
+                </div>
+            </div>
+
+            <a href="work.html" class="project">
+                <div class="project-icon">
+                    <!-- Heart + pulse icon -->
+                    <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-label="Healthcare AI Platform">
+                        <rect width="44" height="44" rx="8" fill="#2563eb" />
+                        <path
+                            d="M22 33.5s-10-6.875-10-13.125c0-3.75 2.75-6.25 5.625-6.25 1.875 0 3.5 1 4.375 2.5.875-1.5 2.5-2.5 4.375-2.5 2.875 0 5.625 2.5 5.625 6.25 0 6.25-10 13.125-10 13.125z"
+                            fill="#fff" />
+                    </svg>
+                </div>
+                <div class="project-content">
+                    <h2>Clinical Data &amp; Care Coordination (Blue Cross Blue Shield)</h2>
+                    <p class="meta project-label">2019&ndash;2021</p>
+                    <p>Converted manual, phone-based specialist referrals into virtual care workflows, with a matching
+                        algorithm and load balancer that put the right nurse practitioner in front of the right member
+                        instead of whoever happened to be free.</p>
+                    <p class="meta">Result: $6M new revenue &middot; 60% better NP coverage &middot; 50% less
+                        compliance reporting time</p>
+                </div>
+            </a>
+
+            <div class="project">
+                <div class="project-icon">
+                    <!-- Code brackets icon -->
+                    <svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img"
+                        aria-label="Open Source AI Development">
+                        <rect width="44" height="44" rx="8" fill="#333" />
+                        <path d="M17 13.75l-7.5 8.25 7.5 8.25" stroke="#fff" stroke-width="3" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M27 13.75l7.5 8.25-7.5 8.25" stroke="#fff" stroke-width="3" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="project-content">
+                    <h2>Open Source</h2>
+                    <p class="meta project-label">Published on GitHub</p>
+                    <p>Interactive explainers that make opaque things steppable&mdash;<a
+                            href="https://saiprapul.github.io/processor-viz/" target="_blank">how a processor turns
+                            electricity into a running program</a> and <a
+                            href="https://saiprapul.github.io/transformer-viz/" target="_blank">how a transformer turns
+                            text into a prediction</a>&mdash;plus the <a
+                            href="https://saiprapul.github.io/ai-evals-handbook/" target="_blank">AI Evals
+                            Handbook</a>.</p>
+                    <p class="meta"><a href="https://github.com/saiprapul" target="_blank">github.com/saiprapul</a>
+                        &middot; TypeScript, HTML, Python</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="page-footer">
+            <nav>
+                <a href="index.html">Home</a>
+                <span>·</span>
+                <a href="work.html">Work</a>
+                <span>·</span>
+                <a href="writing.html">Writing</a>
+                <span>·</span>
+                <a href="about.html">About</a>
+                <span>·</span>
+                <a href="https://github.com/saiprapul/saiprapul.github.io" target="_blank">Source</a>
+            </nav>
+            <div class="footer-social">
+                <a href="mailto:saiprapul.thotapally@gmail.com">Email</a>
+                <span>·</span>
+                <a href="https://linkedin.com/in/saiprapul-r-thotapally" target="_blank">LinkedIn</a>
+                <span>·</span>
+                <a href="https://github.com/saiprapul" target="_blank">GitHub</a>
+                <span>·</span>
+                <a href="https://twitter.com/saiprapulR" target="_blank">Twitter</a>
+                <span>·</span>
+                <a href="https://medium.com/@Saiprapul" target="_blank">Medium</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>

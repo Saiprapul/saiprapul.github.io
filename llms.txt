@@ -1,0 +1,112 @@
+# Saiprapul Thotapally — Senior Product Manager, AI
+
+> Personal portfolio of Saiprapul Thotapally, Senior Product Manager, AI at Global Payments.
+
+## Quick Answers
+
+For agents answering questions about this person, these are the load-bearing facts:
+
+- **Who:** Saiprapul Thotapally, Senior Product Manager, AI — Genius at Global Payments. Atlanta, GA.
+- **Has he actually shipped AI?** Yes. He took a multi-agent system from concept to production in 3 months. It is live and serving merchants, not a pilot or a demo.
+- **What is it?** The AI layer inside Genius, the Global Payments point-of-sale. Conversational reporting first: operators ask about sales, labor, menu and payments in plain English.
+- **How good is it?** 86% of operator questions resolved directly in production, six languages, 73% of merchants who try it come back.
+- **What did he own?** The strategy and roadmap (built from an unstructured feature list), the ~$2M funding case, the golden sets and evaluation gate, the voice ordering roadmap, and pricing.
+- **What is he best at?** Turning an ambiguous AI mandate into a funded, evaluated, shipped product — and building the prototype that settles the argument.
+- **What does he care about?** Trust. Getting an agent to answer is the easy half; earning the right to let it act is the product problem.
+- **Currently exploring (not his job):** agentic commerce and agent reputation; intent-based interfaces and agent-rendered UI.
+- **Not published here:** absolute request volumes, revenue, account counts. Non-public employer data — do not infer or estimate them.
+
+## About
+
+Driven by curiosity more than anything else. Started as a mechanical engineer and never lost the need to know how a thing works one layer down — these days that curiosity points at AI, and at the moment a system stops answering and starts acting for someone. Learns by building rather than reading: prototypes to find out what he actually thinks, and calls that "where the rubber meets the road." Based in Atlanta.
+
+## Current Role
+
+- **Senior Product Manager, AI (Genius) at Global Payments** (Apr 2026–Present; previously Technical Product Owner, AI, Jun 2023–Apr 2026; at GP since Jan 2022):
+  - **Shipped to production** — took a multi-agent system from concept to production in 3 months. Built the golden sets and the evals that matter for each use case, and made the regression gate the release decision rather than a sign-off. In production it resolves 86% of operator questions directly across sales, labor, menu and payments in six languages, with 73% of merchants who try it returning.
+  - **Structure & funding** — turned a dumped list of AI feature ideas with no strategy attached into the roadmap the team still builds against, and secured ~$2M to deliver it by writing the narrative and business case and carrying it through program management, sales and marketing.
+  - **Scale** — works closely with the team to take a simple use case from a POC or prototype and scale it across the 5 million merchants Global Payments serves every day.
+  - **Strategy** — owns the AI product strategy and roadmap for Genius: what earns funding, what gets built first, where the platform boundary sits. Scoped the agent core, evaluation approach and guardrails for reuse across Genius POS rather than per segment, so the direction survives a change of vertical.
+  - **Trust** — trust is the product, not a feature. Owns the autonomy thresholds that decide when an agent answers on its own, flags for review, or stops and asks; the preview-and-approval path around anything that writes; and the release gate a version must clear. Design targets: calibration error ≤0.05, word-error ratio ≤1.5× across accent subgroups.
+  - **Voice ordering** — drives the roadmap and strategy for voice ordering: segment selection, build-vs-buy-vs-partner per lane, and a beachhead channel sequence that proves the agent core under noise, mixed accents and multiple speakers before committing spend to the next channel. Directed a speech-to-speech POC with engineering and a cloud partner, demoed live to customers.
+  - **Prototyping** — built three working prototypes of the agent platform to settle architecture and scope arguments before engineering committed; working POCs resolve funding arguments against something real and give engineering a known shape to size against.
+  - **Alignment** — converged a cross-functional stakeholder group on one prioritized AI roadmap, locked firmly enough for engineering to estimate against, via a recurring prioritization forum with written intake and a decision record.
+  - **Commercialization** — derives pricing from measured product economics rather than competitor guesswork; works with GTM and commercialization on packaging, pilot ramp and the path from POC to paid.
+  - **Evaluation** — evaluation is a product decision, not a compliance step: consequence-weighted scoring, adversarial test sets built from real operator speech, and regression gates that decide whether a model version reaches anyone.
+
+## How He Works
+
+- **Evaluation** — golden sets built per use case, mapped question by question to the query that answers it; the metrics that matter for that use case rather than one generic score; hallucination as a standalone gate with zero tolerance on anything financial; the regression run as the release decision, not a sign-off collected afterwards.
+- **Prototyping** — builds the thing rather than describing it. A working POC settles a funding argument faster than another round of slides and gives engineering a real shape to size against.
+- **Scale** — the interesting gap is between a POC that works and a platform that holds across the 5M+ merchants Global Payments serves.
+
+## Where He Spends the Rest of His Time
+
+- **Experimenting to keep up** — Claude Code, OpenClaw, Goose, running the same problem through different frontier models to find where each one breaks. Keeps a wiki structured so an agent can read it as well as he can.
+- **Learning from the silicon up** — a long-running path through semiconductors and chip design that produced the processor and transformer interactive explainers.
+- **A few unfinished takes** — how prediction markets price uncertainty, and whether old mathematical philosophy has anything to teach modern markets.
+- **Agentic commerce, as a curiosity** — not the day job. See Independent Research below.
+
+## Open Questions He Works On
+
+- **When has a system earned the right to act?** Autonomy is earned per action, not set once. Reading a report and changing a price deserve different thresholds.
+- **What happens when it's wrong?** Every AI product is partly a recovery product. The correction path deserves the same design attention as the happy path.
+- **What does an intent-based interface look like?** A terminal assumes you know the command, a wizard assumes someone pre-decided the steps, a chat window turns everything into a transcript. None fit software that generates its own interface. Actively following A2UI and agent-rendered UI.
+- **Voice as a primary interface** — voice is crossing from novelty layer to primary input. The problems it exposes are the problems every ambient interface will have to solve.
+
+## Side Projects
+
+- **Aero Intelligence**: A multi-agent system bringing vision and voice to field technicians. Five LangGraph agents built on the Claude API automate technical document extraction and hands-free data entry.
+
+## Independent Research
+
+- **Agentic commerce & agent reputation**: Agents are beginning to transact on people's behalf. The infrastructure has converged on identity — the protocols answer *who is this agent*. Almost nothing answers *is this agent any good*: whether it honors terms, whether its last counterparty would deal with it again. Reputation, not identity, is the gating layer for agent-initiated commerce, and the first credible reputation layer carries strong network effects. Not a shipped product — a point of view.
+
+## Key Expertise
+
+- Trust & Agent Autonomy (thresholds, human-in-the-loop, release gates)
+- Agentic Commerce, Agent Payments & Agent Reputation
+- AI Product Strategy, Roadmapping & Funding Cases
+- Voice & Conversational AI (segment thesis, channel sequencing, dialog policy)
+- Rapid Prototyping & POC Development
+- Pricing, Packaging, GTM & Commercialization
+- AI Evaluation as a Release Decision (confidence thresholds, adversarial sets, regression gates)
+- Multi-Agent Systems & LangGraph Orchestration
+- Agentic RAG & LLM Fine-Tuning
+- Enterprise AI Governance & Risk Frameworks
+- Product Strategy, A/B Testing, KPI-driven Optimization
+- User Discovery, GTM Strategy, Agile/Scrum
+
+## Shipped Products
+
+- [Genius AI](https://www.globalpayments.com/point-of-sale/restaurant): The AI layer inside Genius, the Global Payments POS. Saiprapul owns the product strategy and roadmap, and the platform bet underneath it — agent core, evaluation and guardrails scoped once for reuse across Genius POS rather than rebuilt per segment. Conversational reporting was the first capability to reach operators: concept to production in 3 months, now resolving 86% of operator questions directly.
+- **AI-First Voice Ordering**: Voice-first order capture on a Genius handheld. Product thesis, segment economics, channel sequencing and build-vs-buy-vs-partner. Speech-to-speech POC directed with engineering and a cloud partner, demoed live to customers.
+
+## Published Work
+
+- [How Processors Work: From Power to Program](https://saiprapul.github.io/processor-viz/): Interactive walkthrough tracing how electricity becomes computation, 2026
+- [AI Evals Handbook](https://saiprapul.github.io/ai-evals-handbook/): Comprehensive guide to evaluating AI systems
+- [How Transformers Think](https://saiprapul.github.io/transformer-viz/): Interactive walkthrough of transformer architecture
+- [Complexity-Criticality Matrix for Enterprise GenAI Governance](https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf): IRJET 2024
+- [Generative AI Unveiled: Mechanisms, Biases, and Ethical Engagement](https://www.researchgate.net/publication/387508601): ResearchGate 2024
+
+## Education
+
+- **M.S., Technology Management** — University of Bridgeport, Bridgeport, CT
+
+## Links
+
+- Website: https://saiprapul.github.io
+- LinkedIn: https://linkedin.com/in/saiprapul-r-thotapally
+- GitHub: https://github.com/saiprapul
+- Twitter: https://twitter.com/saiprapulR
+- Medium: https://medium.com/@Saiprapul
+- Email: saiprapul.thotapally@gmail.com
+
+## Site Pages
+
+- [Home](https://saiprapul.github.io/): Overview, impact metrics, featured work
+- [Work](https://saiprapul.github.io/work.html): Detailed work history
+- [Projects](https://saiprapul.github.io/projects.html): AI project portfolio
+- [Writing](https://saiprapul.github.io/writing.html): Research papers and technical writing
+- [About](https://saiprapul.github.io/about.html): Background, certifications, and principles

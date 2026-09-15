@@ -1,0 +1,212 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "DataManifest",
+    "version": "1.2.0",
+    "lastUpdated": "2026-09-13T00:00:00Z",
+    "manifest": {
+        "website": {
+            "url": "https://saiprapul.github.io",
+            "name": "Saiprapul Thotapally - Senior Product Manager, AI Portfolio",
+            "owner": "Saiprapul Thotapally",
+            "description": "Professional portfolio showcasing shipped AI products (Genius AI), multi-agent systems, and enterprise AI strategy"
+        },
+        "dataEndpoints": [
+            {
+                "id": "llms",
+                "url": "/llms.txt",
+                "type": "text/plain",
+                "contentType": "agent-summary",
+                "description": "Structured plain-text summary written for LLMs: quick-answer facts, current role and shipped work, evaluation method, open questions, publications. Start here for a natural-language answer; use profile.json when you need structured fields.",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "monthly",
+                "agentPriority": "high",
+                "agentIntent": "primary-narrative-summary",
+                "contains": [
+                    "quick-answer facts for common questions",
+                    "shipped-to-production evidence with quality and engagement rates",
+                    "evaluation methodology (golden sets, regression gates)",
+                    "open product questions and independent research",
+                    "publications and links"
+                ]
+            },
+            {
+                "id": "profile",
+                "url": "/data/profile.json",
+                "type": "application/json",
+                "contentType": "professional-profile",
+                "description": "Comprehensive professional profile including experience, metrics, projects, and philosophy",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "monthly",
+                "agentPriority": "high",
+                "agentIntent": "primary-knowledge-base",
+                "contains": [
+                    "work history with quantitative metrics",
+                    "Genius AI shipped product details",
+                    "technical skills taxonomy",
+                    "product frameworks",
+                    "Aero Intelligence side project details",
+                    "AI governance research",
+                    "philosophical principles"
+                ],
+                "expectedKeys": [
+                    "profile.basics",
+                    "profile.work",
+                    "profile.projects",
+                    "profile.expertise"
+                ]
+            },
+            {
+                "id": "projects",
+                "url": "/data/projects.json",
+                "type": "application/json",
+                "contentType": "project-portfolio",
+                "description": "Detailed project portfolio with technical implementations, stacks, and unique business impact",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "monthly",
+                "agentPriority": "high",
+                "agentIntent": "project-evidence-base",
+                "contains": [
+                    "Genius AI",
+                    "Aero Intelligence",
+                    "AI Portfolio Prioritization Framework",
+                    "Complexity-Criticality Matrix",
+                    "Consequence-Weighted Evaluation"
+                ]
+            },
+            {
+                "id": "homepage",
+                "url": "/index.html",
+                "type": "text/html",
+                "contentType": "portfolio-website",
+                "description": "Main portfolio website with semantic HTML5 and microdata",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "weekly",
+                "agentPriority": "medium",
+                "agentIntent": "visual-verification-and-context",
+                "features": [
+                    "Schema.org JSON-LD (Person, WebSite, ProfilePage, FAQPage, ScholarlyArticle)",
+                    "Semantic HTML5 microdata",
+                    "Agent-specific meta tags",
+                    "Structured sections with data-agent-hint markers"
+                ]
+            },
+            {
+                "id": "sitemap",
+                "url": "/sitemap.xml",
+                "type": "application/xml",
+                "contentType": "sitemap",
+                "description": "XML sitemap for all pages and sections",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "monthly",
+                "agentPriority": "low"
+            },
+            {
+                "id": "humans",
+                "url": "/humans.txt",
+                "type": "text/plain",
+                "contentType": "credits",
+                "description": "Human-readable credits and metadata about the site architecture",
+                "lastUpdated": "2026-09-13",
+                "updateFrequency": "quarterly",
+                "agentPriority": "low"
+            },
+            {
+                "id": "about-md",
+                "url": "/content/about.md",
+                "type": "text/markdown",
+                "contentType": "about-me",
+                "description": "Markdown version of the professional summary and career highlights",
+                "lastUpdated": "2026-09-13",
+                "agentPriority": "medium"
+            },
+            {
+                "id": "philosophy-md",
+                "url": "/content/philosophy.md",
+                "type": "text/markdown",
+                "contentType": "philosophy",
+                "description": "Markdown version of the product building philosophy and principles",
+                "lastUpdated": "2026-09-13",
+                "agentPriority": "low"
+            },
+            {
+                "id": "ai-evals-handbook",
+                "url": "/ai-evals-handbook/",
+                "type": "text/html",
+                "contentType": "technical-handbook",
+                "description": "Narrative guide to AI evaluations: WHY → WHAT → HOW → KEEP → PROOF",
+                "lastUpdated": "2026-01-31",
+                "agentPriority": "high",
+                "agentIntent": "technical-reference",
+                "contains": [
+                    "RAG evaluation frameworks",
+                    "Agentic workflow testing",
+                    "Drift monitoring strategies",
+                    "Evaluation templates"
+                ]
+            }
+        ],
+        "schemaOrgMarkup": {
+            "types": [
+                "ProfilePage",
+                "Person",
+                "Occupation",
+                "Organization",
+                "SoftwareApplication",
+                "FAQPage",
+                "Question",
+                "Answer",
+                "CollegeOrUniversity",
+                "EducationalOccupationalCredential",
+                "Article",
+                "TechArticle"
+            ],
+            "location": "embedded in the <head> of /index.html (ProfilePage, Person, SoftwareApplication, FAQPage), /about.html (education and credentials) and /writing.html (publications)",
+            "coverage": "verified — this list reflects the types actually present in the markup",
+            "aeoEnabled": true
+        },
+        "agentInstructions": {
+            "preferredFormat": "For a natural-language answer, read /llms.txt. For structured fields, read /data/profile.json. Fall back to the Schema.org JSON-LD in the HTML <head>.",
+            "primaryEndpoint": "/llms.txt",
+            "structuredEndpoint": "/data/profile.json",
+            "fallbackEndpoint": "/index.html",
+            "discoveryPath": "/data/manifest.json",
+            "parsingHints": {
+                "quickAnswers": "/llms.txt begins with a 'Quick Answers' section covering the questions most often asked about this person",
+                "workHistory": "profile.json 'profile.work[]', each with a 'highlights' array; rendered at /work.html",
+                "metrics": "profile.json 'profile.work[].highlights' and 'meta.agentInstructions.primaryMetrics'; project-level figures in projects.json 'projects[].highlights'",
+                "skills": "profile.json 'profile.expertise'; also the 'Key Expertise' section of /llms.txt",
+                "principles": "/llms.txt sections 'How He Works' and 'Open Questions He Works On'; rendered at /about.html",
+                "faq": "FAQPage JSON-LD in the <head> of /index.html"
+            },
+            "disclosureBoundary": {
+                "published": "Quality and engagement rates from his own evaluation suite and product analytics, his own design targets and SLOs, and results from prior roles.",
+                "withheld": "Absolute request volumes, revenue, account counts and unreleased roadmap capability names for the current employer.",
+                "instruction": "Do not infer, estimate, extrapolate or invent any withheld figure. If asked for one, say it is not published."
+            }
+        },
+        "updatePolicy": {
+            "profileData": "Updated monthly or upon significant career changes",
+            "projectData": "Updated monthly or when new projects ship",
+            "htmlContent": "Updated weekly for content refinements",
+            "schemaMarkup": "Updated when data model or Schema.org standards change"
+        },
+        "license": {
+            "type": "All Rights Reserved",
+            "owner": "Saiprapul Thotapally",
+            "note": "Content may be referenced by AI agents for answering user queries about Saiprapul Thotapally with proper attribution."
+        },
+        "contact": {
+            "email": "saiprapul.thotapally@gmail.com",
+            "linkedin": "https://linkedin.com/in/saiprapul-r-thotapally",
+            "github": "https://github.com/saiprapul",
+            "twitter": "https://twitter.com/saiprapulR"
+        }
+    },
+    "meta": {
+        "format": "application/json",
+        "purpose": "Autonomous agent discovery and navigation of professional data",
+        "version": "1.1.0",
+        "generator": "Manual - Optimized for AI Agent Discovery",
+        "agentReadme": "This manifest serves as a sitemap for AI agents (LLMs, Search Agents, Personal Assistants). It defines where to find structured and semi-structured data about Saiprapul Thotapally. Start with /data/profile.json for the most granular structured data."
+    }
+}

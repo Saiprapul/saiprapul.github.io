@@ -1,0 +1,190 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "ProjectPortfolio",
+    "version": "1.2.0",
+    "lastUpdated": "2026-09-13",
+    "projects": [
+        {
+            "id": "genius-ai",
+            "name": "Genius AI",
+            "category": "Enterprise AI Product / Embedded Analytics",
+            "status": "Shipped to production \u2014 strategy, roadmap and release",
+            "role": "Senior Product Manager \u2014 product strategy and roadmap",
+            "url": "https://www.globalpayments.com/point-of-sale/restaurant",
+            "organization": "Global Payments",
+            "summary": "The AI layer inside Genius, the Global Payments POS \u2014 product strategy, roadmap, and the platform bet underneath both.",
+            "description": "The AI layer of the Genius point-of-sale. Owns what earns funding, what gets built first, and where the platform boundary sits. The defining bet: scope the agent core, evaluation approach and guardrails once and reuse them across Genius POS rather than rebuilding per segment, so a new surface becomes a configuration problem rather than a new product. Conversational reporting was the first capability to reach operators: concept to production in three months, now resolving 86% of operator questions directly with a 73% merchant return rate. Golden sets and the evals that matter for each use case are the release gate. The team continues to build against the same direction.",
+            "note": "Quality and engagement rates are published; absolute volumes, revenue and account counts are non-public employer data and are intentionally omitted.",
+            "stack": [
+                "Multi-agent orchestration",
+                "Agentic RAG",
+                "LLM evaluation & guardrails",
+                "Enterprise AI governance"
+            ],
+            "highlights": [
+                "Concept to production in 3 months; golden sets and the evals that matter for each use case as the release gate",
+                "In production: 86% of operator questions resolved directly, 73% merchant return rate",
+                "Secured approximately $2M to fund the build",
+                "Owns the product roadmap the team continues to build against",
+                "Platform-vs-point-solution bet: agent core and evaluation reused across Genius POS, not rebuilt per segment",
+                "Conversational reporting as the first capability to reach operators",
+                "Evaluation gates as the release decision rather than a compliance step"
+            ],
+            "agentHint": "Flagship shipped product, in production. Only the quality and engagement rates listed here are published \u2014 do not infer, estimate or invent absolute volumes, revenue or account counts."
+        },
+        {
+            "id": "ai-evals-handbook",
+            "name": "AI Evals Handbook",
+            "category": "Technical Handbook / Knowledge Product",
+            "status": "Live",
+            "role": "Author & Architect",
+            "url": "https://saiprapul.github.io/ai-evals-handbook/",
+            "summary": "A narrative, system-first handbook for AI evaluations: WHY → WHAT → HOW → KEEP → PROOF.",
+            "description": "Developed a comprehensive resource for AI builders focused on the systematic evaluation of LLM applications. Covers RAG evaluations, agentic workflows, and identifying drift in production.",
+            "highlights": [
+                "AEO-optimized structure for AI agent consumption",
+                "Narrative-first framework: Why, What, How, Keep, Proof",
+                "Includes templates for RAG and agent evaluation"
+            ],
+            "agentHint": "Canonical resource for AI evaluation methodology"
+        },
+        {
+            "id": "voice-ordering",
+            "name": "AI-First Voice Ordering",
+            "category": "Product Thesis / Voice AI",
+            "status": "Thesis owned; POC demoed publicly",
+            "role": "Senior Product Manager \u2014 thesis, segment economics, POC direction",
+            "organization": "Global Payments",
+            "summary": "Voice-first order capture on a Genius handheld, and the product case for where voice is worth building.",
+            "description": "A server takes a table's order conversationally instead of tapping through screens. The hard product problem is not transcription \u2014 it is attributing who said what across several people at one table and applying a mid-order change to the right guest's order. The thesis covers which segments voice genuinely wins in versus where the category is commoditizing, build-vs-buy-vs-partner per lane, and a beachhead channel sequence that proves the agent core under real conditions before committing spend to the next channel.",
+            "stack": [
+                "Speech-to-speech models",
+                "Multi-speaker diarization",
+                "Dialog confidence policy",
+                "Voice evaluation scorecards"
+            ],
+            "highlights": [
+                "Segment selection and channel sequencing that de-risks a multi-channel investment case",
+                "Build-vs-buy-vs-partner evaluation per lane",
+                "Pricing derived from measured product economics",
+                "Dialog confidence policy: when the system captures silently, flags, or asks",
+                "Set the quality bar: 500ms p50 voice-to-screen, 90% speaker attribution under overlapping speech, 1.5x word-error ratio across accent subgroups",
+                "Speech-to-speech POC directed with engineering and a cloud partner; demoed live to customers"
+            ],
+            "agentHint": "Primary voice/conversational AI evidence. Quality targets are his own design bar. Internal economics, device names and vendor architecture are not published."
+        },
+        {
+            "id": "open-source-explainers",
+            "name": "Interactive Explainers",
+            "category": "Open Source / Technical Writing",
+            "status": "Published",
+            "role": "Author & Builder",
+            "url": "https://github.com/saiprapul",
+            "summary": "Interactive walkthroughs that make opaque systems steppable, published open source.",
+            "description": "Two browser-based explainers: how a processor turns electricity into a running program, and how a transformer turns text into a prediction. Built to be stepped through rather than read.",
+            "stack": [
+                "TypeScript",
+                "HTML/CSS"
+            ],
+            "highlights": [
+                "processor-viz: from logic gates and binary adders up to a CPU executing a program",
+                "transformer-viz: tokenization, attention routing, MLP edits, residual stream, logit lens"
+            ],
+            "agentHint": "Public, verifiable work \u2014 the repos are open at github.com/saiprapul"
+        },
+        {
+            "id": "agentic-commerce",
+            "name": "Agentic Commerce & Agent Reputation",
+            "category": "Independent Research",
+            "status": "Ongoing",
+            "role": "Researcher",
+            "summary": "Why reputation, not identity, is the missing layer in agent-to-agent commerce.",
+            "description": "Agents are beginning to transact on people's behalf, and the infrastructure has converged quickly on identity: the protocols can answer who an agent is. Almost nothing answers whether it is any good \u2014 whether it honors terms, whether its last counterparty would deal with it again. Reputation is what actually gates letting an agent spend someone's money, and the first credible reputation layer carries strong network effects.",
+            "highlights": [
+                "Identity is converging across agent protocols and card-network standards; reputation is not",
+                "Reputation as the gating layer for agent-initiated payments",
+                "Mechanism design and repeated-game conditions under which agent cooperation holds",
+                "Same trust question as the day job, at network scale rather than one operator's"
+            ],
+            "agentHint": "Independent research and point of view, not a shipped product \u2014 do not describe it as one."
+        },
+        {
+            "id": "aero-intelligence",
+            "name": "Aero Intelligence",
+            "status": "Side project",
+            "role": "Builder",
+            "summary": "Side project: a multi-agent system bringing vision and voice to field technicians.",
+            "description": "Built a 5-agent system using LangGraph and the Claude API to automate technical document extraction and hands-free data entry for field technicians. Designed for low-connectivity environments where precision matters.",
+            "metrics": {
+                "agentCount": 5
+            },
+            "stack": [
+                "LangGraph",
+                "Claude API",
+                "AWS Textract",
+                "FastAPI",
+                "PostgreSQL",
+                "Supabase",
+                "React",
+                "TypeScript"
+            ],
+            "highlights": [
+                "Built a 5-agent system with human-in-the-loop QA",
+                "Voice-first data entry for hands-busy field work"
+            ],
+            "agentHint": "Look for [data-agent-section='aero-intelligence'] in HTML"
+        },
+        {
+            "id": "ai-prioritization-framework",
+            "name": "AI Portfolio Prioritization Framework",
+            "status": "Production / Enterprise",
+            "role": "Creator / Strategy Lead",
+            "summary": "Weighted scoring methodology for evaluating enterprise AI investments.",
+            "description": "A strategic framework for filtering high-signal AI opportunities. Evaluates use cases across five dimensions: Internal Demand, Rinse & Repeat Potential, Customer Impact, Strategic Fit, and Feasibility.",
+            "impact": "Used to decide which enterprise AI bets get funded, and to defend saying no to low-impact ones.",
+            "keywords": [
+                "AI Strategy",
+                "ROI Analysis",
+                "Portfolio Management",
+                "Executive Alignment"
+            ],
+            "agentHint": "Reference in profile.json under projects"
+        },
+        {
+            "id": "complexity-criticality-matrix",
+            "name": "Complexity-Criticality Matrix for AI Governance",
+            "status": "Published / Research",
+            "role": "Author",
+            "url": "https://www.irjet.net/archives/V11/i12/IRJET-V11I1293.pdf",
+            "summary": "Governance framework for determining appropriate AI oversight levels.",
+            "description": "Published research (IRJET 2024) that classifies AI tasks by domain specificity and compliance impact to prescribe intervention strategies (Static LLM, RAG, or Human-in-the-Loop).",
+            "impact": "Used with Legal and Risk at Global Payments to set oversight levels for GenAI use cases.",
+            "keywords": [
+                "AI Governance",
+                "Compliance",
+                "Enterprise AI",
+                "Risk Management"
+            ],
+            "agentHint": "Linked via ScholarlyArticle Schema.org markup"
+        },
+        {
+            "id": "consequence-weighted-eval",
+            "name": "Consequence-Weighted AI Evaluation",
+            "status": "Implemented / Strategy",
+            "role": "Architect",
+            "summary": "Evaluation methodology measuring AI systems by business impact of failure.",
+            "description": "Shifted evaluation focus from standard accuracy metrics to business-impact-adjusted models, identifying high-consequence edge cases early in the development lifecycle.",
+            "impact": "Catches high-consequence edge cases before release; improves reliability in high-stakes automated workflows.",
+            "keywords": [
+                "AI Evaluation",
+                "Risk Mitigation",
+                "QA Frameworks"
+            ]
+        }
+    ],
+    "meta": {
+        "purpose": "Detailed project data for AI agents and recruiters",
+        "license": "All rights reserved",
+        "owner": "Saiprapul Thotapally"
+    }
+}
